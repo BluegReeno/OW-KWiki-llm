@@ -17,14 +17,13 @@ Renouvelables, Innogy, and Enbridge) with a winning bid of €44/MWh — a
 then-record low price for French offshore wind, roughly half the price
 secured in the country's first tender rounds a few years earlier.
 
-**Note on numbering:** this page is filed under the slug
-`french-ao5-dunkerque`, but the tender's official CRE designation is
-**AO3** (third French offshore wind tender), not AO5. AO5 is a separate,
-later tender (2024) for a 250 MW floating wind pilot farm off south
-Brittany, won by the Pennavel consortium (Elicio + BayWa r.e.) — unrelated
-to Dunkerque. See [UK CfD Allocation Round 6](/tenders/uk-cfd-allocation-round-6.md)
-for a similar numbering-mismatch note on the UK side. This file has been
-written with the correct AO3 facts despite the filename.
+**Note on numbering:** Dunkerque's official CRE designation is **AO3**
+(third French offshore wind tender). It should not be confused with AO5, a
+separate, later tender (2024) for a 250 MW floating wind pilot farm off
+south Brittany, won by the Pennavel consortium (Elicio + BayWa r.e.) —
+unrelated to Dunkerque. See [UK CfD Allocation Round 6](/tenders/uk-cfd-allocation-round-6.md)
+for a similar tender-numbering note on the UK side. France's first tender
+round, [AO1](/tenders/french-ao1.md), sits at the head of this sequence.
 
 # Key Facts
 

@@ -19,14 +19,12 @@ awarded in 2024/2025 to Cotentin Energies Marines, a joint venture between
 TotalEnergies and RWE, at €66/MWh for 1,500 MW; together the two projects
 form a combined ~2.5 GW Centre Manche cluster.
 
-**Note on numbering:** this page is filed under the slug
-`french-ao6-centre-manche`, but Centre Manche 1's official CRE designation
-is **AO4** (4th French offshore wind tender), not AO6. AO6 is a separate,
-unrelated tender: two 250 MW-class floating wind projects in the
+**Note on numbering:** Centre Manche 1's official CRE designation is **AO4**
+(4th French offshore wind tender). It should not be confused with AO6, a
+separate, unrelated tender: two 250 MW-class floating wind projects in the
 Mediterranean (Narbonnaise Sud-Hérault and Golfe de Fos), awarded in
 December 2024 to Ocean Winds and EDF Renouvelables/Maple Power
-respectively. This file has been written with the correct AO4 facts
-despite the filename.
+respectively.
 
 # Key Facts
 
