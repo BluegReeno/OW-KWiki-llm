@@ -1,8 +1,8 @@
 # Offshore Wind Knowledge Wiki - Current Status
 
 **Last Updated**: 2026-07-02
-**Current Phase**: v2 - Go-live (content gaps closed)
-**Target**: Pipeline running continuously against real newsletter issues
+**Current Phase**: v2 - Live (RSS pipeline running, content gaps closed)
+**Target**: Keep the pipeline running beyond this session; monitor quality on real articles
 
 ---
 
@@ -12,8 +12,9 @@
 
 ### Priority Order
 
-1. **Go-live** - Run `pipeline/run.py` for real against the AgentMail inbox, subscribe it to the offshoreWIND.biz newsletter, and monitor quality over several real issues.
-2. **Nice to have** - AO1–AO10 overview page, wider `companies/`/`projects/` coverage, LinkedIn demo post, BlueWind Companion integration story, AgentMail webhooks instead of polling.
+1. **Make it durable** - `pipeline/poll_rss.py` is running now but tied to this session's process; move it to tmux/nohup/launchd so it survives.
+2. **Monitor quality** - review each new digest/page the pipeline writes against real articles before fully trusting it.
+3. **Nice to have** - AO1–AO10 overview page, wider `companies/`/`projects/` coverage, LinkedIn demo post, BlueWind Companion integration story.
 
 ---
 
@@ -32,26 +33,35 @@
 - [x] Added missing `tenders/french-ao1.md`, linked from Saint-Brieuc/Saint-Nazaire
 - [x] Independently re-verified post-merge: 0 broken links, 0 stale slug references, frontmatter intact
 
+### Phase 3: AgentMail → RSS pivot, real go-live — 2026-07-02
+- [x] AgentMail newsletter signup's confirmation email never arrived after two attempts — pivoted to polling offshoreWIND.biz's public RSS feed instead (no account, no confirmation step)
+- [x] `pipeline/poll_rss.py` written (stdlib only), `pipeline/run.py` (AgentMail) removed
+- [x] Dry-run tested with an RSS-shaped fictitious article — correctly digest-only, no fabricated pages
+- [x] Launched for real against the actual bundle; baselined the 10 articles already in the feed, now waiting on genuinely new ones
+- [x] AgentMail MCP server connected (local scope) for ad-hoc inbox inspection — account/key kept, unused by the pipeline itself
+
 ### Recent Commits
 | Feature | Commit | Date |
 |---------|--------|------|
 | OKF bundle + ingestion pipeline | `0a18a76` | 2026-07-02 |
 | Brief v2 (STATUS + task file) | `89f3ffd` | 2026-07-02 |
 | Tender AO numbering fix + AO1 page (PR #1, via Archon) | `5364dab` | 2026-07-02 |
+| AgentMail → RSS pivot | `ca311d0` | 2026-07-02 |
 
 ---
 
 ## Architecture
 
 ```
-offshoreWIND.biz newsletter → AgentMail inbox → pipeline/run.py polls unread mail
+https://www.offshorewind.biz/feed/ → pipeline/poll_rss.py polls every 30 min
    → pipeline/wiki_agent.py shells out to `claude -p`
      (Read/Write/Edit/Glob/Grep only, cwd = bundle root)
    → updates companies/projects/tenders/technology/policy pages,
      writes digests/YYYY-MM-DD-*.md, logs to log.md
 
-Consumption: any AI agent reads bundles/offshore-wind/ directly (plain
-markdown) or via bundles/offshore-wind/okf-cli.py (index/find/read).
+Consumption: any AI agent (or Obsidian, as a vault) reads
+bundles/offshore-wind/ directly (plain markdown) or via
+bundles/offshore-wind/okf-cli.py (index/find/read).
 ```
 
 ---
@@ -69,8 +79,7 @@ python3 okf-cli.py read <path>
 cd bundles/offshore-wind/pipeline
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env   # fill in AGENTMAIL_API_KEY
-python run.py           # prints inbox address on first run
+python poll_rss.py   # first run baselines existing articles, no .env needed
 ```
 
 ---
@@ -82,7 +91,7 @@ bundles/offshore-wind/
 ├── index.md, log.md, README.md, okf-cli.py
 ├── companies/ projects/ tenders/ technology/ policy/ digests/   # OKF concept pages
 └── pipeline/
-    ├── run.py          # AgentMail polling loop
+    ├── poll_rss.py     # RSS polling loop (stdlib only)
     ├── wiki_agent.py   # shells out to `claude -p`, scoped system prompt
     ├── README.md        # setup instructions
     └── .env.example
@@ -95,9 +104,9 @@ bundles/offshore-wind/
 | Layer | Technology |
 |-------|------------|
 | Knowledge format | Open Knowledge Format (OKF) — markdown + YAML frontmatter |
-| Ingestion transport | AgentMail (inbox API, polling) |
+| Ingestion transport | Public RSS feed (`urllib` + `xml.etree`, stdlib only) |
 | Curator agent | Claude Code CLI headless (`claude -p`), Max/Pro subscription auth |
-| Navigation | `okf-cli.py` (Python stdlib only, no deps) |
+| Navigation | `okf-cli.py` (Python stdlib only, no deps) or Obsidian (open the folder as a vault) |
 
 ---
 

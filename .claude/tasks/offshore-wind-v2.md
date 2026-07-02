@@ -11,12 +11,12 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 ## Tasks
 
 ### Go-live
-- [ ] `pip install -r requirements.txt` in a venv under `pipeline/`
-- [ ] Confirm `claude` CLI is logged in (it should be — same login as this session)
-- [ ] Run `python run.py` once; capture the printed AgentMail inbox address
-- [ ] Subscribe that address to the offshoreWIND.biz daily newsletter (signup form on offshorewind.biz)
-- [ ] Keep `run.py` running continuously (tmux/nohup) for at least a few real newsletter issues
-- [ ] After each digested issue, `git diff` the bundle and read the new/changed pages — check for hallucinated facts, wrong cross-links, or duplicate concepts before trusting the page long-term
+- [x] `pip install -r requirements.txt` in a venv under `pipeline/` ✓ 2026-07-02
+- [x] Confirm `claude` CLI is logged in ✓ 2026-07-02
+- [x] ~~Run `python run.py` once; capture the printed AgentMail inbox address~~ — **pivoted**: the offshoreWIND.biz newsletter confirmation email never arrived after two signup attempts. Switched ingestion to the public RSS feed (`https://www.offshorewind.biz/feed/`) instead — no account, no confirmation step. `run.py` (AgentMail) removed, replaced by `pipeline/poll_rss.py` (stdlib only). See `pipeline/README.md` § "Why not AgentMail / the newsletter?". ✓ 2026-07-02
+- [x] `python poll_rss.py` launched for real against the actual bundle — first run baselined the 10 articles currently in the feed as already-seen (not processed), so it starts clean and only ingests genuinely new articles going forward. Running continuously (background process, this session). ✓ 2026-07-02
+- [ ] Keep `poll_rss.py` running beyond this session (tmux/nohup/launchd) — currently tied to the session that launched it.
+- [ ] After each new article gets digested, `git diff` the bundle and read the new/changed pages — check for hallucinated facts, wrong cross-links, or duplicate concepts before trusting the page long-term
 - [ ] Tune `wiki_agent.SYSTEM_PROMPT` if a recurring quality problem shows up (e.g. over-eager page creation, missed cross-links)
 
 ### Content gaps
@@ -45,5 +45,5 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 
 ## Completion
 - **Started**: 2026-07-02
-- **Completed**: Content gaps + validation done 2026-07-02 (via Archon); Go-live section still open.
-- **Commit**: `5364dab` (PR #1, squash-merged)
+- **Completed**: Content gaps + validation done 2026-07-02 (via Archon); go-live pipeline running for real (RSS-based, pivoted from AgentMail newsletter) 2026-07-02. Only "survive beyond this session" remains open.
+- **Commit**: `5364dab` (PR #1, squash-merged), `ca311d0` (AgentMail → RSS pivot)
