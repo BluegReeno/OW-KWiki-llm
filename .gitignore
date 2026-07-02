@@ -25,3 +25,12 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Offshore wind bundle pipeline (secrets, local state, venv)
+bundles/offshore-wind/pipeline/.env
+bundles/offshore-wind/pipeline/.agent_state.json
+bundles/offshore-wind/pipeline/venv/
+bundles/offshore-wind/pipeline/__pycache__/
+
+# Reference clones (separate git repos, not vendored into this one)
+/examples/cole-medin-ai-coding/
