@@ -14,8 +14,8 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 - [x] `pip install -r requirements.txt` in a venv under `pipeline/` ✓ 2026-07-02
 - [x] Confirm `claude` CLI is logged in ✓ 2026-07-02
 - [x] ~~Run `python run.py` once; capture the printed AgentMail inbox address~~ — **pivoted**: the offshoreWIND.biz newsletter confirmation email never arrived after two signup attempts. Switched ingestion to the public RSS feed (`https://www.offshorewind.biz/feed/`) instead — no account, no confirmation step. `run.py` (AgentMail) removed, replaced by `pipeline/poll_rss.py` (stdlib only). See `pipeline/README.md` § "Why not AgentMail / the newsletter?". ✓ 2026-07-02
-- [x] `python poll_rss.py` launched for real against the actual bundle — first run baselined the 10 articles currently in the feed as already-seen (not processed), so it starts clean and only ingests genuinely new articles going forward. Running continuously (background process, this session). ✓ 2026-07-02
-- [ ] Keep `poll_rss.py` running beyond this session (tmux/nohup/launchd) — currently tied to the session that launched it.
+- [x] `python poll_rss.py` launched for real against the actual bundle — first run baselined the 10 articles currently in the feed as already-seen (not processed), so it starts clean and only ingests genuinely new articles going forward. ✓ 2026-07-02
+- [x] Refactored `poll_rss.py` from a long-running daemon (`while True` + internal `sleep`) into a single check-and-exit script, and scheduled it via **cron** every 30 minutes instead of a supervised background process (tmux/launchd) — simpler, no process to babysit, `.rss_poll.lock` (fcntl flock) guards against overlapping runs. `CLAUDE_BIN` set to `claude`'s absolute path in `.env` since cron's `PATH` doesn't include it. See `pipeline/README.md` § "Running it periodically (cron)". ✓ 2026-07-02
 - [ ] After each new article gets digested, `git diff` the bundle and read the new/changed pages — check for hallucinated facts, wrong cross-links, or duplicate concepts before trusting the page long-term
 - [ ] Tune `wiki_agent.SYSTEM_PROMPT` if a recurring quality problem shows up (e.g. over-eager page creation, missed cross-links)
 
@@ -45,5 +45,5 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 
 ## Completion
 - **Started**: 2026-07-02
-- **Completed**: Content gaps + validation done 2026-07-02 (via Archon); go-live pipeline running for real (RSS-based, pivoted from AgentMail newsletter) 2026-07-02. Only "survive beyond this session" remains open.
-- **Commit**: `5364dab` (PR #1, squash-merged), `ca311d0` (AgentMail → RSS pivot)
+- **Completed**: 2026-07-02 — content gaps (via Archon), AgentMail → RSS pivot, and cron-based persistent scheduling all done. Only ongoing quality monitoring (as real articles arrive) remains open-ended, not a one-time task.
+- **Commit**: `5364dab` (PR #1, squash-merged), `ca311d0` (AgentMail → RSS pivot), next commit for the cron/one-shot refactor

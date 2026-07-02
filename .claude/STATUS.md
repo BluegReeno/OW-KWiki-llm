@@ -1,8 +1,8 @@
 # Offshore Wind Knowledge Wiki - Current Status
 
 **Last Updated**: 2026-07-02
-**Current Phase**: v2 - Live (RSS pipeline running, content gaps closed)
-**Target**: Keep the pipeline running beyond this session; monitor quality on real articles
+**Current Phase**: v2 - Live and persistent (cron-scheduled, content gaps closed)
+**Target**: Monitor quality on real articles as they arrive
 
 ---
 
@@ -12,9 +12,8 @@
 
 ### Priority Order
 
-1. **Make it durable** - `pipeline/poll_rss.py` is running now but tied to this session's process; move it to tmux/nohup/launchd so it survives.
-2. **Monitor quality** - review each new digest/page the pipeline writes against real articles before fully trusting it.
-3. **Nice to have** - AO1–AO10 overview page, wider `companies/`/`projects/` coverage, LinkedIn demo post, BlueWind Companion integration story.
+1. **Monitor quality** - review each new digest/page the pipeline writes against real articles before fully trusting it.
+2. **Nice to have** - AO1–AO10 overview page, wider `companies/`/`projects/` coverage, LinkedIn demo post, BlueWind Companion integration story.
 
 ---
 
@@ -40,6 +39,11 @@
 - [x] Launched for real against the actual bundle; baselined the 10 articles already in the feed, now waiting on genuinely new ones
 - [x] AgentMail MCP server connected (local scope) for ad-hoc inbox inspection — account/key kept, unused by the pipeline itself
 
+### Phase 4: Persistent scheduling (cron) — 2026-07-02
+- [x] Refactored `poll_rss.py` from a `while True` daemon into a single check-and-exit invocation (fcntl-locked against overlapping runs)
+- [x] Scheduled via cron every 30 min — survives session end, Mac restarts (as long as the machine is on)
+- [x] `CLAUDE_BIN` pinned to `claude`'s absolute path in `.env` since cron's minimal `PATH` doesn't include it
+
 ### Recent Commits
 | Feature | Commit | Date |
 |---------|--------|------|
@@ -47,6 +51,7 @@
 | Brief v2 (STATUS + task file) | `89f3ffd` | 2026-07-02 |
 | Tender AO numbering fix + AO1 page (PR #1, via Archon) | `5364dab` | 2026-07-02 |
 | AgentMail → RSS pivot | `ca311d0` | 2026-07-02 |
+| One-shot refactor + cron scheduling | (pending commit) | 2026-07-02 |
 
 ---
 
@@ -75,11 +80,11 @@ python3 okf-cli.py index
 python3 okf-cli.py find "<query>"
 python3 okf-cli.py read <path>
 
-# Run the ingestion pipeline
+# Run the ingestion pipeline manually (also runs via cron every 30 min, see crontab -l)
 cd bundles/offshore-wind/pipeline
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-python poll_rss.py   # first run baselines existing articles, no .env needed
+python poll_rss.py   # single check-and-exit pass; first run baselines existing articles
 ```
 
 ---

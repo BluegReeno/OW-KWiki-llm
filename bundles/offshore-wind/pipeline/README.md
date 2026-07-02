@@ -6,7 +6,7 @@ scoped to read/write only inside the bundle — update the relevant
 concept pages, the way the OKF spec expects an "enrichment agent" to work.
 
 ```
-https://www.offshorewind.biz/feed/ → poll_rss.py polls every 30 min
+cron (every 30 min) → poll_rss.py checks https://www.offshorewind.biz/feed/ once, exits
    → wiki_agent.py shells out to `claude -p` (Read/Write/Edit/Glob/Grep
      tools only, cwd = bundle root) → updates companies/projects/tenders/
      technology/policy pages, writes a digests/YYYY-MM-DD-*.md entry,
@@ -29,24 +29,38 @@ login and draws on your Claude Code/Max subscription usage.
    python3 -m venv venv && source venv/bin/activate
    pip install -r requirements.txt
    ```
-3. (Optional) copy `.env.example` to `.env` to tweak the poll interval or
-   model — defaults work fine without it.
-4. Run it:
+3. (Optional) copy `.env.example` to `.env` to override the model or the
+   `claude` binary path — defaults work fine without it. If you do run it
+   via cron (see below), set `CLAUDE_BIN` to `claude`'s absolute path
+   (`which claude`) since cron's `PATH` won't include it otherwise.
+4. First run — baselines every article currently in the feed as "already
+   seen" without processing them (so you don't get a burst of ~20 pages
+   on day one):
    ```bash
    python poll_rss.py
    ```
-   The first run baselines every article currently in the feed as
-   "already seen" without processing them (so you don't get a burst of
-   ~20 pages on day one) — only genuinely new articles from then on get
-   ingested.
 
-## Running it continuously
+## Running it periodically (cron)
 
-`poll_rss.py` is a plain polling loop (`POLL_INTERVAL_SECONDS`, default
-1800s / 30 min — offshoreWIND.biz publishes roughly hourly, no need to
-poll faster). No external infrastructure required, just keep the process
-alive (tmux, a systemd/launchd service, or a background `nohup` are all
-fine for a demo).
+`poll_rss.py` checks the feed once and exits — it is NOT a long-running
+daemon, so it's meant to be invoked periodically rather than kept alive.
+offshoreWIND.biz publishes roughly hourly, so every 30 minutes is plenty:
+
+```cron
+*/30 * * * * cd /path/to/bundles/offshore-wind/pipeline && /path/to/bundles/offshore-wind/pipeline/venv/bin/python poll_rss.py >> /path/to/bundles/offshore-wind/pipeline/poll.log 2>&1
+```
+
+Add it with `crontab -e` (or non-interactively:
+`(crontab -l; echo "...") | crontab -`). Notes:
+- Use the venv's `python` directly (absolute path) rather than relying on
+  `source venv/bin/activate`, which doesn't work in cron's non-interactive
+  shell.
+- `poll.log` accumulates output — it's gitignored (`*.log`).
+- A file lock (`.rss_poll.lock`, via `fcntl.flock`) makes concurrent
+  invocations a no-op, in case one run is still curating articles when
+  the next cron tick fires.
+- To stop: `crontab -e` and delete the line, or `crontab -r` to clear
+  your whole crontab (careful if you have other cron jobs).
 
 ## Cost / safety notes
 
