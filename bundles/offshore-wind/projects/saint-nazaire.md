@@ -18,9 +18,9 @@ Investments (Canada Pension Plan Investment Board). It uses 80 GE
 Haliade 150-6MW turbines.
 
 Like Saint-Brieuc, Saint-Nazaire's development rights originate from
-France's first offshore wind tender round (AO1, 2011), with the EDF
-Énergies Nouvelles-led consortium (now EDF Renouvelables) awarded the
-project in April 2012.
+France's first offshore wind tender round ([AO1](/tenders/french-ao1.md),
+2011), with the EDF Énergies Nouvelles-led consortium (now EDF
+Renouvelables) awarded the project in April 2012.
 
 # Key Facts
 
@@ -32,7 +32,7 @@ project in April 2012.
 | Status | Fully operational since 23 November 2022; first offshore wind farm commissioned in France |
 | Location | Banc de Guérande, off the Guérande peninsula, Loire-Atlantique, France, ~12 km offshore |
 | Foundation type | [Fixed-bottom](/technology/fixed-bottom-foundations.md) |
-| Tender round | France's AO1 (first offshore wind tender, 2011); awarded April 2012 |
+| Tender round | France's [AO1](/tenders/french-ao1.md) (first offshore wind tender, 2011); awarded April 2012 |
 
 # Citations
 

@@ -21,9 +21,9 @@ and Caisse des Dépôts) until Iberdrola acquired full ownership in March
 target.
 
 Saint-Brieuc's development rights trace back to France's first offshore
-wind tender round (AO1, launched 2011), with Ailes Marines designated
-winner in April 2012 — one of the earliest French offshore wind tender
-awards.
+wind tender round ([AO1](/tenders/french-ao1.md), launched 2011), with
+Ailes Marines designated winner in April 2012 — one of the earliest French
+offshore wind tender awards.
 
 # Key Facts
 
@@ -35,7 +35,7 @@ awards.
 | Status | Fully commissioned, last turbine connected 28 May 2024 |
 | Location | Bay of Saint-Brieuc, Brittany, France, ~16 km offshore |
 | Foundation type | [Fixed-bottom](/technology/fixed-bottom-foundations.md) |
-| Tender round | France's AO1 (first offshore wind tender, 2011); Ailes Marines designated winner April 2012 |
+| Tender round | France's [AO1](/tenders/french-ao1.md) (first offshore wind tender, 2011); Ailes Marines designated winner April 2012 |
 
 # Citations
 

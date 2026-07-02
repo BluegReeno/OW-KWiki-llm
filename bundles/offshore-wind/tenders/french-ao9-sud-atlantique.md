@@ -64,4 +64,4 @@ Atlantique" tender would be incorrect at this time.
 - [France to Launch Massive Offshore Wind Tender as Gov't Bundles AO9 and AO10 into Single Round — offshoreWIND.biz](https://www.offshorewind.biz/2026/04/03/france-to-launch-massive-offshore-wind-tender-as-govt-bundles-ao9-and-ao10-into-single-round/)
 - [Éolien en mer : le gouvernement français lance le dixième appel d'offres — Mer et Marine](https://www.meretmarine.com/fr/energies-marines/eolien-en-mer-le-gouvernement-francais-lance-le-dixieme-appel-d-offres)
 
-Related: [Centre Manche 1 offshore wind tender](/tenders/french-ao6-centre-manche.md) · [French energy policy (PPE)](/policy/french-energy-policy-ppe.md) · [French offshore wind permitting](/policy/french-permitting-eolien-en-mer.md)
+Related: [Centre Manche 1 offshore wind tender](/tenders/french-ao4-centre-manche.md) · [French energy policy (PPE)](/policy/french-energy-policy-ppe.md) · [French offshore wind permitting](/policy/french-permitting-eolien-en-mer.md)
