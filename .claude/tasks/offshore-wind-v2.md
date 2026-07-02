@@ -20,14 +20,14 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 - [ ] Tune `wiki_agent.SYSTEM_PROMPT` if a recurring quality problem shows up (e.g. over-eager page creation, missed cross-links)
 
 ### Content gaps
-- [ ] **Fix the AO-numbering slug mismatch**: `tenders/french-ao5-dunkerque.md` is actually about AO3 (Dunkerque), and `tenders/french-ao6-centre-manche.md` is actually AO4 (Centre Manche 1) — the research agent documented this correction inside the files but kept the originally-assigned slugs to avoid breaking cross-links written by other agents in the same parallel run. Decide: rename to accurate slugs (`french-ao3-dunkerque.md`, `french-ao4-centre-manche.md`) and grep-fix every incoming link across the bundle, or leave as-is with the in-file correction note. Recommend renaming — the mismatch will confuse the ingestion pipeline agent later when new newsletter issues reference "AO3" or "AO5" by their real numbers.
-- [ ] **Add the missing AO1 tender page** — `projects/saint-brieuc.md` and `projects/saint-nazaire.md` both tag `tenders` and reference France's first tender round (AO1), but no `tenders/french-ao1.md` exists yet. Add it, and link both projects to it.
-- [ ] Consider one `policy/` or `tenders/` overview page clarifying the full French AO1–AO10 history in one place — multiple sub-agents got tripped up by this numbering during v1; a single canonical reference reduces the chance the pipeline agent repeats the confusion.
+- [x] **Fix the AO-numbering slug mismatch** — renamed to `french-ao3-dunkerque.md` / `french-ao4-centre-manche.md`, all incoming links fixed across the bundle. Done via Archon (`archon-feature-development`, PR #1, merged as `5364dab`). ✓ 2026-07-02
+- [x] **Add the missing AO1 tender page** — `tenders/french-ao1.md` created (France's first offshore wind tender, July 2011, ~1,928 MW across four zones), linked from `saint-brieuc.md` and `saint-nazaire.md`. Done via Archon, same PR. ✓ 2026-07-02
+- [ ] Consider one `policy/` or `tenders/` overview page clarifying the full French AO1–AO10 history in one place — multiple sub-agents got tripped up by this numbering during v1; a single canonical reference reduces the chance the pipeline agent repeats the confusion. (Not done — optional, still open.)
 - [ ] Widen `companies/`/`projects/` coverage if there's appetite — e.g. TotalEnergies, Shell, BP offshore wind arms; more projects (Hornsea 3, Baltic Eagle, South Fork Wind, He Dreiht, etc.). Not required for v2 completion — do only if time allows.
 
 ### Validation
-- [ ] Re-run the broken-link scanner (python script used in v1, see session history or rewrite: scan all `.md` for `](/…\.md)` links and check targets exist)
-- [ ] `python3 okf-cli.py find "AO1"` / similar spot checks after adding new tender content
+- [x] Re-ran the broken-link scanner against the PR branch before merge: 0 broken links, 0 stray references to the old slugs, `type:` present on all concept files. ✓ 2026-07-02
+- [x] `python3 okf-cli.py find "AO1"` confirms the new page is indexed and searchable. ✓ 2026-07-02
 
 ## Files to Create/Modify
 
@@ -45,5 +45,5 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 
 ## Completion
 - **Started**: 2026-07-02
-- **Completed**: (fill when done)
-- **Commit**: (link to commit when done)
+- **Completed**: Content gaps + validation done 2026-07-02 (via Archon); Go-live section still open.
+- **Commit**: `5364dab` (PR #1, squash-merged)

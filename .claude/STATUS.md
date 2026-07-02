@@ -1,8 +1,8 @@
 # Offshore Wind Knowledge Wiki - Current Status
 
 **Last Updated**: 2026-07-02
-**Current Phase**: v2 - Go-live + content gaps
-**Target**: Pipeline running continuously against real newsletter issues; known content gaps closed
+**Current Phase**: v2 - Go-live (content gaps closed)
+**Target**: Pipeline running continuously against real newsletter issues
 
 ---
 
@@ -13,8 +13,7 @@
 ### Priority Order
 
 1. **Go-live** - Run `pipeline/run.py` for real against the AgentMail inbox, subscribe it to the offshoreWIND.biz newsletter, and monitor quality over several real issues.
-2. **Content gaps** - Fix the AO-numbering slug mismatch in `tenders/`, add missing tender rounds (AO1, referenced by Saint-Brieuc/Saint-Nazaire but not yet a page), widen `companies/`/`projects/` coverage.
-3. **Nice to have** - LinkedIn demo post, BlueWind Companion integration story, AgentMail webhooks instead of polling.
+2. **Nice to have** - AO1–AO10 overview page, wider `companies/`/`projects/` coverage, LinkedIn demo post, BlueWind Companion integration story, AgentMail webhooks instead of polling.
 
 ---
 
@@ -28,10 +27,17 @@
 - [x] Dry-run tested end-to-end against a throwaway bundle — correctly wrote a digest-only entry and declined to fabricate concept pages for fictitious test content
 - [x] Zero broken cross-links, all frontmatter valid (`type` field present everywhere)
 
+### Phase 2: v2 content gaps — 2026-07-02
+- [x] Fixed AO-numbering slug mismatch (`french-ao5/6-*` → `french-ao3/4-*`, real CRE numbers) — done via Archon (`archon-feature-development`), PR #1
+- [x] Added missing `tenders/french-ao1.md`, linked from Saint-Brieuc/Saint-Nazaire
+- [x] Independently re-verified post-merge: 0 broken links, 0 stale slug references, frontmatter intact
+
 ### Recent Commits
 | Feature | Commit | Date |
 |---------|--------|------|
 | OKF bundle + ingestion pipeline | `0a18a76` | 2026-07-02 |
+| Brief v2 (STATUS + task file) | `89f3ffd` | 2026-07-02 |
+| Tender AO numbering fix + AO1 page (PR #1, via Archon) | `5364dab` | 2026-07-02 |
 
 ---
 
