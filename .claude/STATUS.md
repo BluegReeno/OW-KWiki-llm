@@ -1,7 +1,7 @@
 # Offshore Wind Knowledge Wiki - Current Status
 
 **Last Updated**: 2026-07-03
-**Current Phase**: v2 - Live and persistent (cron-scheduled, content gaps closed, validated against 10 real articles)
+**Current Phase**: v2 - Live, persistent, and genuinely unattended (cron + OAuth token, validated against 15 real articles — 10 manual + 5 fully automated)
 **Target**: Review gate before pipeline commits land unattended
 
 ---
@@ -50,6 +50,14 @@
 - [x] Confirmed cron is executing on schedule (poll.log) and correctly reports "no new articles" when the feed genuinely hasn't changed (verified by diffing live feed guids against stored state)
 - [x] Committed as content-only (no pipeline code changed) — decided going forward: pipeline should NOT auto-commit unattended; review gate needed first ([Issue #2](https://github.com/BluegReeno/OW-KWiki-llm/issues/2))
 
+### Phase 6: Real unattended auth fix — 2026-07-03
+- [x] Diagnosed the actual root cause of unattended failures: `claude -p` has no access to the interactive session's login under cron **or** launchd (tested both — same `"Not logged in · Please run /login"` either way, so it was never a cron-vs-launchd issue)
+- [x] Fix: `claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN` in `.env` (long-lived, ~1 year) — confirmed working under a minimal `env -i` shell matching cron/launchd's environment
+- [x] Fixed a real bug this surfaced: `poll_rss.py` was marking failed items as "seen" — meaning a curation failure silently and permanently dropped that article. Now failed items retry on the next run.
+- [x] Reverted the brief launchd detour back to cron (both work now that auth is the actual fix; cron is simpler and was the original preference)
+- [x] First fully unattended, automated ingestions: 5 real articles processed with zero manual intervention (ESB/Inch Cape, JERA Nex BP/Northwester 2/Nobelwind, Bernhard Schulte Offshore, Curonian Nord/Lithuania)
+- [x] Documented both failure signatures (`Not logged in` vs `401 Invalid bearer token`) in `pipeline/README.md` so a future expiry is recognizable at a glance
+
 ### Recent Commits
 | Feature | Commit | Date |
 |---------|--------|------|
@@ -60,6 +68,9 @@
 | One-shot refactor + cron scheduling | `a847cdb` | 2026-07-02 |
 | Real README | `8922037` | 2026-07-02 |
 | Ingest 10 real articles (manual validation) | `c3c4eb2` | 2026-07-03 |
+| GitHub Issues tracking model, close v2 task | `b48fa27` | 2026-07-03 |
+| Fix silent-drop bug + OAuth token docs | `b436828` | 2026-07-03 |
+| Ingest 5 real articles (first automated runs) | `0ac4428` | 2026-07-03 |
 
 ---
 
@@ -92,6 +103,7 @@ python3 okf-cli.py read <path>
 cd bundles/offshore-wind/pipeline
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
+# .env needs CLAUDE_CODE_OAUTH_TOKEN (from `claude setup-token`) for unattended runs
 python poll_rss.py   # single check-and-exit pass; first run baselines existing articles
 ```
 
@@ -118,7 +130,7 @@ bundles/offshore-wind/
 |-------|------------|
 | Knowledge format | Open Knowledge Format (OKF) — markdown + YAML frontmatter |
 | Ingestion transport | Public RSS feed (`urllib` + `xml.etree`, stdlib only) |
-| Curator agent | Claude Code CLI headless (`claude -p`), Max/Pro subscription auth |
+| Curator agent | Claude Code CLI headless (`claude -p`), Max/Pro subscription auth via `CLAUDE_CODE_OAUTH_TOKEN` |
 | Navigation | `okf-cli.py` (Python stdlib only, no deps) or Obsidian (open the folder as a vault) |
 
 ---
