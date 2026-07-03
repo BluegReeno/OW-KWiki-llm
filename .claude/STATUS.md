@@ -41,7 +41,7 @@
 
 ### Phase 4: Persistent scheduling (cron) — 2026-07-02
 - [x] Refactored `poll_rss.py` from a `while True` daemon into a single check-and-exit invocation (fcntl-locked against overlapping runs)
-- [x] Scheduled via cron every 30 min — survives session end, Mac restarts (as long as the machine is on)
+- [x] Scheduled via cron (currently once/day at 20:00 local; tuning the exact hour after observing publication patterns) — survives session end, Mac restarts (as long as the machine is on)
 - [x] `CLAUDE_BIN` pinned to `claude`'s absolute path in `.env` since cron's minimal `PATH` doesn't include it
 
 ### Phase 5: Validated against real articles — 2026-07-03
@@ -57,6 +57,7 @@
 - [x] Reverted the brief launchd detour back to cron (both work now that auth is the actual fix; cron is simpler and was the original preference)
 - [x] First fully unattended, automated ingestions: 5 real articles processed with zero manual intervention (ESB/Inch Cape, JERA Nex BP/Northwester 2/Nobelwind, Bernhard Schulte Offshore, Curonian Nord/Lithuania)
 - [x] Documented both failure signatures (`Not logged in` vs `401 Invalid bearer token`) in `pipeline/README.md` so a future expiry is recognizable at a glance
+- [x] Dialed cron down from every 30 min to once/day (20:00 local, a starting guess) — no need for near-real-time ingestion; will tune the exact hour after watching `poll.log` timestamps for a few days to see when offshoreWIND.biz actually publishes
 
 ### Recent Commits
 | Feature | Commit | Date |
@@ -77,7 +78,7 @@
 ## Architecture
 
 ```
-https://www.offshorewind.biz/feed/ → pipeline/poll_rss.py polls every 30 min
+https://www.offshorewind.biz/feed/ → pipeline/poll_rss.py polls once/day (cron)
    → pipeline/wiki_agent.py shells out to `claude -p`
      (Read/Write/Edit/Glob/Grep only, cwd = bundle root)
    → updates companies/projects/tenders/technology/policy pages,
@@ -99,7 +100,7 @@ python3 okf-cli.py index
 python3 okf-cli.py find "<query>"
 python3 okf-cli.py read <path>
 
-# Run the ingestion pipeline manually (also runs via cron every 30 min, see crontab -l)
+# Run the ingestion pipeline manually (also runs via cron once/day, see crontab -l)
 cd bundles/offshore-wind/pipeline
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt

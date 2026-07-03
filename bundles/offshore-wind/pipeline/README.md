@@ -51,11 +51,17 @@ rather than pay-per-token API billing.
 
 `poll_rss.py` checks the feed once and exits — it is NOT a long-running
 daemon, so it's meant to be invoked periodically rather than kept alive.
-offshoreWIND.biz publishes roughly hourly, so every 30 minutes is plenty:
+Once a day is enough — offshoreWIND.biz's items don't need near-real-time
+ingestion, and each run costs a `claude -p` invocation per new article:
 
 ```cron
-*/30 * * * * cd /path/to/bundles/offshore-wind/pipeline && /path/to/bundles/offshore-wind/pipeline/venv/bin/python poll_rss.py >> /path/to/bundles/offshore-wind/pipeline/poll.log 2>&1
+0 20 * * * cd /path/to/bundles/offshore-wind/pipeline && /path/to/bundles/offshore-wind/pipeline/venv/bin/python poll_rss.py >> /path/to/bundles/offshore-wind/pipeline/poll.log 2>&1
 ```
+
+`20 * * *` (20:00 local time) is a starting guess — observed publication
+activity so far clusters in the morning/midday UTC with nothing
+overnight, so any time after that window closes works. Pick the actual
+best time after watching `poll.log` timestamps for a few days.
 
 Add it with `crontab -e` (or non-interactively:
 `(crontab -l; echo "...") | crontab -`). Notes:
