@@ -11,7 +11,7 @@ timestamp: 2026-07-01T12:00:00Z
 
 Gwynt Glas is a proposed floating offshore wind farm in the Celtic Sea, off Wales,
 with a planned installed capacity of up to **1.5 GW**. It is being developed by a
-joint venture between **EDF Power Solutions** and **ESB**, working with
+joint venture between **EDF Power Solutions** and **[ESB](/companies/esb.md)**, working with
 **DP Energy** as exclusive development partner.
 
 ## Timeline

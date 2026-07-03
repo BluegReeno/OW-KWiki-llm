@@ -8,3 +8,4 @@
 * [UK CfD Allocation Round 7 (AR7)](uk-cfd-allocation-round-7.md) - Record 8.4 GW of UK offshore wind awarded in January 2026, led by RWE with 6.9 GW.
 * [ScotWind leasing round](scotwind-leasing-round.md) - Crown Estate Scotland seabed leasing round, January 2022, ~24.8 GW awarded across 17 projects.
 * [South Korea Offshore Wind Auction (2026)](south-korea-offshore-wind-auction-2026.md) - Five projects (~1,786 MW combined) selected; Copenhagen Infrastructure Partners won 1 GW across two of them.
+* [Lithuania's First Offshore Wind Tender (2023)](lithuania-first-offshore-wind-tender.md) - 700 MW Baltic Sea site awarded to an Ignitis Renewables/Ocean Winds JV, seeding the Curonian Nord offshore wind farm.

@@ -19,7 +19,7 @@ A typical substation platform is a topside module mounted on a jacket foundation
 - Reactive power compensation equipment (needed to offset cable capacitance on long AC export runs)
 - For HVDC-connected farms, the AC-side equipment feeds a separate converter platform rather than exporting AC directly
 
-Platforms are increasingly delivered as prefabricated, factory-tested modules to reduce offshore commissioning time — Siemens Energy's Offshore Transformer Module (OTM) concept, deployed at the Inch Cape project on a 68 m jacket, is one example of this modular approach.
+Platforms are increasingly delivered as prefabricated, factory-tested modules to reduce offshore commissioning time — Siemens Energy's Offshore Transformer Module (OTM) concept, deployed at the [Inch Cape](/projects/inch-cape.md) project on a 68 m jacket, is one example of this modular approach.
 
 # Floating Substations
 
