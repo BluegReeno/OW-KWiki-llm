@@ -28,6 +28,8 @@ Floating wind farms sited in deeper water need dynamic (flexible, motion-toleran
 - [floating-wind.md](floating-wind.md) — drives demand for dynamic HVDC cables
 - [/projects/dogger-bank.md](/projects/dogger-bank.md), [/projects/hornsea-2.md](/projects/hornsea-2.md), [/projects/empire-wind-1.md](/projects/empire-wind-1.md) — HVDC-connected projects
 - [/companies/orsted.md](/companies/orsted.md), [/companies/rwe-offshore-wind.md](/companies/rwe-offshore-wind.md), [/companies/equinor.md](/companies/equinor.md) — developers of HVDC-scale farms
+- [/companies/aker-solutions.md](/companies/aker-solutions.md) — EPC supplier of HVDC converter platform substructures
+- [/companies/ls-cable-system.md](/companies/ls-cable-system.md) — cable manufacturer building a US subsea export cable factory
 - [/policy/uk-contracts-for-difference-scheme.md](/policy/uk-contracts-for-difference-scheme.md), [/policy/eu-offshore-wind-strategy.md](/policy/eu-offshore-wind-strategy.md)
 
 # Citations

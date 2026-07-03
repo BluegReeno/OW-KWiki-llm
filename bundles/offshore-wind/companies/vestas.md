@@ -15,7 +15,7 @@ Vestas Wind Systems A/S, headquartered in Aarhus, Denmark, is the world's larges
 
 - **V236-15.0 MW** — Vestas' flagship offshore direct-drive platform (part of the industry-wide [turbine scaling](/technology/turbine-scaling.md) trend toward larger machines), launched in 2021, with a 236 m rotor diameter; the company reports more than 12 GW of order intake for the model since launch. Key orders and deployments include:
   - [Empire Wind 1](/projects/empire-wind-1.md) (US, ~810 MW off New York) — Vestas' first US offshore order, 54 V236-15.0 MW turbines, delivery beginning 2026.
-  - Baltic Power (Poland, ~1,140 MW) — 76 V236-15.0 MW turbines for a joint venture of ORLEN and Northland Power; first turbine installed in 2025, commissioning expected 2026.
+  - [Baltic Power](/projects/baltic-power.md) (Poland, ~1,140 MW) — 76 V236-15.0 MW turbines for a joint venture of ORLEN and Northland Power; first turbine installed in 2025, commissioning expected 2026.
   - Nordseecluster (Germany) — preferred-supplier position for a 1.6 GW cluster for RWE and Northland Power, at least 104 turbines expected from 2026.
   - Norfolk Vanguard East and Vanguard West (UK, ~1,380 MW each) — firm orders from RWE for a combined 184 V236-15.0 MW turbines, tied to RWE's projects that secured Contracts for Difference in [UK CfD Allocation Round 7](/tenders/uk-cfd-allocation-round-7.md); commissioning expected 2029-2030.
 - Earlier offshore platforms (V164/V174 series, up to ~9.5-10 MW) were supplied to earlier-generation European offshore wind farms before the V236 became Vestas' primary offshore product.

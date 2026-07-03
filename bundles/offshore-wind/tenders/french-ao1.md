@@ -27,7 +27,9 @@ declared "sans suite" (without follow-up): its bid carried the highest
 electricity purchase price of the five zones, and was rejected to avoid an
 estimated €500 million in additional cost. Le Tréport was subsequently
 re-tendered in the second round (AO2, 2014) and awarded, as the
-Dieppe–Le Tréport project, to an Engie-led consortium.
+[Dieppe–Le Tréport](/projects/dieppe-le-treport.md) project, to an
+Engie-led consortium; all jacket foundations were installed by
+[DEME Offshore](/companies/deme-offshore.md) in June 2026.
 
 The four AO1 awards totalled roughly 1,928 MW — close to 2,000 MW of the
 3,000 MW offered — and became France's first offshore wind farms:

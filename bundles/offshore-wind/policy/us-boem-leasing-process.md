@@ -4,7 +4,7 @@ title: US BOEM Offshore Wind Leasing Process
 description: The federal process run by the Bureau of Ocean Energy Management for leasing and permitting offshore wind projects on the US Outer Continental Shelf.
 resource: https://www.boem.gov/about-boem/re-commercial-leasing-process-fact-sheet
 tags: [united-states, boem, leasing, permitting]
-timestamp: 2026-07-02T00:00:00Z
+timestamp: 2026-06-30T08:02:03Z
 ---
 
 # Overview
@@ -25,6 +25,7 @@ As of 2025–2026, the US offshore wind leasing and permitting framework has fac
 - **December 2025**: stop-work orders issued on five projects under construction — Coastal Virginia Offshore Wind Commercial, Empire Wind 1, Revolution Wind, Sunrise Wind, and Vineyard Wind 1 (a combined ~5.8 GW) — citing national security/radar interference concerns.
 - **8 December 2025**: a federal judge (D. Mass.) ruled the January 2025 leasing-pause memorandum unlawful via summary judgment against the administration; legal challenges (including by Dominion Energy) continue.
 - **Next scheduled lease sale**: a Gulf of Mexico offshore wind lease sale is planned for 2026, per BOEM/DOI.
+- **30 June 2026**: DOI reached a settlement agreement with Duke Energy for Duke to exit its Carolina Long Bay lease offshore North Carolina — the fourth offshore wind lease buyout deal reached by the Trump administration as part of its broader push to unwind federal offshore wind leases.
 
 # Citations
 
@@ -32,3 +33,4 @@ As of 2025–2026, the US offshore wind leasing and permitting framework has fac
 - [DOI — Trump Administration Pausing Offshore Wind Leases](https://www.doi.gov/pressreleases/trump-administration-protects-us-national-security-pausing-offshore-wind-leases)
 - [Congress.gov CRS — Status of U.S. Offshore Wind Leasing and Permitting](https://www.congress.gov/crs-product/IN12509)
 - [Georgetown Climate Center — Understanding Recent Federal Actions](https://www.georgetownclimate.org/articles/admin-actions-restrict-wind-development.html)
+- [offshoreWIND.biz — Trump Administration Reaches Fourth Offshore Wind Lease Buyout Deal, Duke Energy Exits Carolina Long Bay Site](https://www.offshorewind.biz/2026/06/30/trump-administration-reaches-fourth-offshore-wind-lease-buyout-deal-duke-energy-exits-carolina-long-bay-site/)

@@ -9,3 +9,10 @@
 * [GE Vernova](ge-vernova-offshore-wind.md) - American energy equipment maker and offshore wind turbine OEM, spun off from General Electric in 2024, best known for its Haliade-X offshore turbine platform.
 * [DEME Offshore](deme-offshore.md) - Belgian marine engineering and offshore installation contractor, part of DEME Group, providing EPCI services (foundations, cables, substations) for offshore wind farms worldwide.
 * [Van Oord](van-oord.md) - Dutch family-owned marine contractor specializing in dredging, marine engineering, and offshore wind installation (foundations, cables) across Europe, Asia, and the US.
+* [Vattenfall](vattenfall.md) - Swedish state-owned multinational utility and offshore wind developer, active in the UK, Netherlands, Denmark, and Germany, including the 1.6 GW Nordlicht cluster.
+* [Skyborn Renewables](skyborn.md) - GIP-backed offshore wind developer, sole owner of Germany's Nordergründe offshore wind farm and JV partner with Ørsted on US projects Revolution Wind and South Fork Wind.
+* [Føn Energy Services](fon-energy-services.md) - Renewable energy O&M service provider; Polish arm holds a multi-year O&M contract for the Baltic Power offshore wind farm.
+* [Kent](kent.md) - Engineering and technical consulting firm; appointed Owner's Engineer for the Buchan floating wind project in Scotland, July 2026.
+* [Aker Solutions](aker-solutions.md) - Norwegian engineering company delivering EPC steel substructures for HVDC offshore converter platforms, including East Anglia Three, Norfolk Vanguard, and Germany's BalWin1/BalWin2 grid connections.
+* [LS Cable & System / LS GreenLink](ls-cable-system.md) - South Korean cable manufacturer building a subsea power cable factory in the US via subsidiary LS GreenLink, to supply HVDC/HVAC export cables for offshore wind and grid interconnection.
+* [Copenhagen Infrastructure Partners (CIP)](copenhagen-infrastructure-partners.md) - Danish fund manager and offshore wind developer/investor active in Europe, the US, and Asia-Pacific; secured 1 GW across two projects in South Korea's 2026 offshore wind auction.

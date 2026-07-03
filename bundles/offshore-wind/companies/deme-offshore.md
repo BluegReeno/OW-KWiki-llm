@@ -43,6 +43,13 @@ Marine (JOM) and CDWE (Taiwan) extending its installation capacity in Asia.
 
 # Key Projects
 
+- [Dieppe-Le Tréport Offshore Wind Farm](/projects/dieppe-le-treport.md) —
+  completed installation of all jacket foundations, 30 June 2026.
+- [Nordlicht Offshore Wind Farms](/projects/nordlicht.md) — transport &
+  installation contract (awarded 2024/2025) for monopile foundations and
+  transition pieces at both Nordlicht I (980 MW) and Nordlicht II (630 MW)
+  for developer [Vattenfall](/companies/vattenfall.md); first monopile
+  installed 1 July 2026.
 - [Saint-Nazaire](/projects/saint-nazaire.md) — installed all 80 monopile
   foundations and the offshore substation for France's first commercial
   offshore wind farm, using the vessel Innovation.
