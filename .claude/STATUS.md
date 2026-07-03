@@ -1,18 +1,18 @@
 # Offshore Wind Knowledge Wiki - Current Status
 
-**Last Updated**: 2026-07-02
-**Current Phase**: v2 - Live and persistent (cron-scheduled, content gaps closed)
-**Target**: Monitor quality on real articles as they arrive
+**Last Updated**: 2026-07-03
+**Current Phase**: v2 - Live and persistent (cron-scheduled, content gaps closed, validated against 10 real articles)
+**Target**: Review gate before pipeline commits land unattended
 
 ---
 
 ## Current Focus
 
-**Task File**: `.claude/tasks/offshore-wind-v2.md`
+**Tracking model**: `.claude/tasks/*.md` files cover work already done (v1/v2 history below). Going forward, new discrete work items are tracked as **GitHub Issues** instead of new task files — better fit for Archon delegation (`archon-fix-github-issue` and friends expect an issue number) and for tracking outside a Claude Code session. STATUS.md stays as the "what's the current focus" snapshot.
 
 ### Priority Order
 
-1. **Monitor quality** - review each new digest/page the pipeline writes against real articles before fully trusting it.
+1. **[Issue #2](https://github.com/BluegReeno/OW-KWiki-llm/issues/2)** - Add a review gate (likely PR + verification agent, per the pattern from PR #1) before pipeline-authored wiki changes commit unattended. Currently: pipeline writes to the working tree, commit is manual.
 2. **Nice to have** - AO1–AO10 overview page, wider `companies/`/`projects/` coverage, LinkedIn demo post, BlueWind Companion integration story.
 
 ---
@@ -44,6 +44,12 @@
 - [x] Scheduled via cron every 30 min — survives session end, Mac restarts (as long as the machine is on)
 - [x] `CLAUDE_BIN` pinned to `claude`'s absolute path in `.env` since cron's minimal `PATH` doesn't include it
 
+### Phase 5: Validated against real articles — 2026-07-03
+- [x] Manually ran the curator agent against all 10 articles present in the feed at launch (previously skipped as baseline) — one by one, real content, not synthetic tests
+- [x] Result: ~14 new concept pages, 8 cross-link updates, 10 digests, 0 broken links, frontmatter valid throughout
+- [x] Confirmed cron is executing on schedule (poll.log) and correctly reports "no new articles" when the feed genuinely hasn't changed (verified by diffing live feed guids against stored state)
+- [x] Committed as content-only (no pipeline code changed) — decided going forward: pipeline should NOT auto-commit unattended; review gate needed first ([Issue #2](https://github.com/BluegReeno/OW-KWiki-llm/issues/2))
+
 ### Recent Commits
 | Feature | Commit | Date |
 |---------|--------|------|
@@ -51,7 +57,9 @@
 | Brief v2 (STATUS + task file) | `89f3ffd` | 2026-07-02 |
 | Tender AO numbering fix + AO1 page (PR #1, via Archon) | `5364dab` | 2026-07-02 |
 | AgentMail → RSS pivot | `ca311d0` | 2026-07-02 |
-| One-shot refactor + cron scheduling | (pending commit) | 2026-07-02 |
+| One-shot refactor + cron scheduling | `a847cdb` | 2026-07-02 |
+| Real README | `8922037` | 2026-07-02 |
+| Ingest 10 real articles (manual validation) | `c3c4eb2` | 2026-07-03 |
 
 ---
 
@@ -115,4 +123,4 @@ bundles/offshore-wind/
 
 ---
 
-**Next Action**: Read `.claude/tasks/offshore-wind-v2.md` and start with the first unchecked task.
+**Next Action**: See [Issue #2](https://github.com/BluegReeno/OW-KWiki-llm/issues/2) (review gate) — `gh issue list --repo BluegReeno/OW-KWiki-llm` for the full backlog.

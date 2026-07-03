@@ -45,5 +45,6 @@ Get the ingestion pipeline running against real offshoreWIND.biz newsletter issu
 
 ## Completion
 - **Started**: 2026-07-02
-- **Completed**: 2026-07-02 — content gaps (via Archon), AgentMail → RSS pivot, and cron-based persistent scheduling all done. Only ongoing quality monitoring (as real articles arrive) remains open-ended, not a one-time task.
-- **Commit**: `5364dab` (PR #1, squash-merged), `ca311d0` (AgentMail → RSS pivot), next commit for the cron/one-shot refactor
+- **Completed**: 2026-07-03 — content gaps (via Archon), AgentMail → RSS pivot, cron-based persistent scheduling, and validation against 10 real articles all done.
+- **Commit**: `5364dab` (PR #1), `ca311d0` (AgentMail → RSS pivot), `a847cdb` (cron refactor), `c3c4eb2` (real-article validation)
+- **Superseded by**: this v2 task file is done; new work items are tracked as GitHub Issues from here on (see `.claude/STATUS.md`), starting with [Issue #2](https://github.com/BluegReeno/OW-KWiki-llm/issues/2) (review gate before unattended commits).
