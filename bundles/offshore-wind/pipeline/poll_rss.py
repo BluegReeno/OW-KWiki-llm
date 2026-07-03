@@ -85,6 +85,9 @@ def run_once() -> None:
         )
         summary = update_wiki_from_email(subject=item["title"], sender="offshorewind.biz", body=body)
         print(f"  -> {summary}")
+        if summary.startswith("error:"):
+            print(f"  ! not marking as seen, will retry next run: {item['guid']}")
+            continue
         seen.add(item["guid"])
         _save_seen(seen)
 

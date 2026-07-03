@@ -15,24 +15,31 @@ cron (every 30 min) → poll_rss.py checks https://www.offshorewind.biz/feed/ on
 
 No account, no API key, no email — the feed is public. The curator agent
 runs via `claude -p` (Claude Code's headless mode) rather than the
-Anthropic API SDK, so it's authenticated with your existing Claude Code
-login and draws on your Claude Code/Max subscription usage.
+Anthropic API SDK, so it draws on your Claude Code/Max subscription usage
+rather than pay-per-token API billing.
 
 ## One-time setup
 
-1. **Claude Code must be logged in** — if `claude` already works
-   interactively in your terminal, you're set. Otherwise run `claude` once
-   and complete login, or `claude auth login`.
+1. **Get a long-lived auth token** — cron/launchd run outside your login
+   session, so `claude -p` can't reach your interactive session's login
+   (it fails with `Not logged in · Please run /login`, whether via cron
+   *or* launchd — this isn't a cron-specific quirk, see "Token expiry"
+   below). Run, in your own terminal (interactive OAuth/browser flow):
+   ```bash
+   claude setup-token
+   ```
+   Copy the **full** printed value (a partial copy fails later with
+   `Failed to authenticate. API Error: 401 Invalid bearer token`, which
+   looks similar but is a different problem — see below).
 2. Install dependencies (a virtualenv is recommended):
    ```bash
    cd bundles/offshore-wind/pipeline
    python3 -m venv venv && source venv/bin/activate
    pip install -r requirements.txt
    ```
-3. (Optional) copy `.env.example` to `.env` to override the model or the
-   `claude` binary path — defaults work fine without it. If you do run it
-   via cron (see below), set `CLAUDE_BIN` to `claude`'s absolute path
-   (`which claude`) since cron's `PATH` won't include it otherwise.
+3. Copy `.env.example` to `.env` and paste the token from step 1 into
+   `CLAUDE_CODE_OAUTH_TOKEN`. Also set `CLAUDE_BIN` to `claude`'s absolute
+   path (`which claude`) since cron's minimal `PATH` won't include it.
 4. First run — baselines every article currently in the feed as "already
    seen" without processing them (so you don't get a burst of ~20 pages
    on day one):
@@ -61,6 +68,24 @@ Add it with `crontab -e` (or non-interactively:
   the next cron tick fires.
 - To stop: `crontab -e` and delete the line, or `crontab -r` to clear
   your whole crontab (careful if you have other cron jobs).
+
+## Token expiry
+
+`CLAUDE_CODE_OAUTH_TOKEN` (from `claude setup-token`) is valid for about a
+year. When it expires (or if it's ever wrong/truncated), `poll_rss.py`'s
+per-article fix keeps it safe — a failed item is **not** marked as seen,
+so it retries every run instead of being silently dropped — but nothing
+will actually get ingested until it's fixed. Watch `poll.log` for either:
+
+- `"Not logged in · Please run /login"` — no valid token reached the
+  process at all (missing/empty `CLAUDE_CODE_OAUTH_TOKEN`, or it didn't
+  get inherited into the environment `claude -p` ran in).
+- `"Failed to authenticate. API Error: 401 Invalid bearer token"` — a
+  token reached the process but was rejected (expired, or corrupted
+  during copy/paste — re-copy the *full* value, terminals often wrap it
+  across visual lines).
+
+Fix for either: re-run `claude setup-token`, replace the value in `.env`.
 
 ## Cost / safety notes
 

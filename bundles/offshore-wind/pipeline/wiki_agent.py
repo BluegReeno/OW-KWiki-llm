@@ -101,7 +101,8 @@ def update_wiki_from_email(subject: str, sender: str, body: str) -> str:
         timeout=TIMEOUT_SECONDS,
     )
     if result.returncode != 0:
-        return f"error: claude exited {result.returncode}: {result.stderr[-2000:]}"
+        detail = result.stderr[-2000:] or result.stdout[-2000:]
+        return f"error: claude exited {result.returncode}: {detail}"
 
     try:
         payload = json.loads(result.stdout)
