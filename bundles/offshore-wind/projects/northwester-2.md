@@ -18,7 +18,7 @@ The wind farm has a long-term power purchase agreement (PPA) signed in 2019 unde
 - **Location**: Belgian North Sea, 51 km offshore
 - **Turbines**: 23 x Vestas 9.5 MW
 - **Operational since**: 2020
-- **Owner**: JERA Nex BP (100%, since July 2026; previously 70% JERA Nex BP / 30% Sumitomo Corporation)
+- **Owner**: JERA Nex BP (100%, since July 2026; previously 70% JERA Nex BP / 30% [Sumitomo Corporation](/companies/sumitomo-corporation.md))
 - **Offtake**: Long-term PPA with RWE Supply & Trading (since 2019), including offtake to ASML
 
 # Citations

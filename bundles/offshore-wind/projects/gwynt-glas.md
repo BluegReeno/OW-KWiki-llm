@@ -1,10 +1,10 @@
 ---
 type: Project
 title: Gwynt Glas Floating Wind Project
-description: 1.5 GW floating offshore wind project proposed for the Celtic Sea (Wales), developed by an EDF Power Solutions/ESB joint venture with DP Energy as exclusive development partner; EIA scoping report submitted July 2026.
-resource: https://www.offshorewind.biz/2026/07/01/gwynt-glas-submits-eia-scoping-report-for-1-5-gw-celtic-sea-floating-wind-project/
+description: 1.5 GW floating offshore wind project proposed for the Celtic Sea (Wales), developed by an EDF Power Solutions/ESB joint venture with DP Energy as exclusive development partner; EIA scoping report submitted July 2026, Sumitomo Corporation joined as an equity partner in August 2026.
+resource: https://www.offshorewind.biz/2026/08/10/sumitomo-acquires-stake-in-gwynt-glas-floating-wind-project/
 tags: [floating-wind, planning, tenders]
-timestamp: 2026-07-01T12:00:00Z
+timestamp: 2026-08-10T00:00:00Z
 ---
 
 # Gwynt Glas Floating Wind Project
@@ -12,7 +12,9 @@ timestamp: 2026-07-01T12:00:00Z
 Gwynt Glas is a proposed floating offshore wind farm in the Celtic Sea, off Wales,
 with a planned installed capacity of up to **1.5 GW**. It is being developed by a
 joint venture between **EDF Power Solutions** and **[ESB](/companies/esb.md)**, working with
-**DP Energy** as exclusive development partner.
+**DP Energy** as exclusive development partner. In August 2026,
+**[Sumitomo Corporation](/companies/sumitomo-corporation.md)** acquired a stake in the
+project, joining the ownership group.
 
 ## Timeline
 
@@ -27,6 +29,9 @@ joint venture between **EDF Power Solutions** and **[ESB](/companies/esb.md)**, 
   Inspectorate (PINS), Natural Resources Wales, and the Marine Management
   Organisation, opening formal stakeholder engagement on the EIA's proposed
   topics and methodologies.
+- **August 2026**: [Sumitomo Corporation](/companies/sumitomo-corporation.md) acquired a
+  stake in the project, joining the EDF Power Solutions/ESB partnership. The stake size
+  and transaction terms were not reported.
 
 ## Consenting
 
@@ -35,4 +40,5 @@ Project (NSIP) and will require a Development Consent Order (DCO) as well as
 marine licences. Public consultation events are expected in autumn 2026.
 
 # Citations
+- [Sumitomo Acquires Stake in Gwynt Glas Floating Wind Project](https://www.offshorewind.biz/2026/08/10/sumitomo-acquires-stake-in-gwynt-glas-floating-wind-project/) - offshoreWIND.biz, August 10, 2026
 - [Gwynt Glas Submits EIA Scoping Report for 1.5 GW Celtic Sea Floating Wind Project](https://www.offshorewind.biz/2026/07/01/gwynt-glas-submits-eia-scoping-report-for-1-5-gw-celtic-sea-floating-wind-project/) - offshoreWIND.biz, July 1, 2026

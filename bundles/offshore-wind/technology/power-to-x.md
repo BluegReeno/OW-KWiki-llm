@@ -2,8 +2,8 @@
 type: Technology
 title: Power-to-X (Offshore Green Hydrogen)
 description: Converting offshore wind electricity directly into hydrogen or other energy carriers at or near the point of generation, as an alternative to exporting electrons via cable.
-tags: [power-to-x, green-hydrogen, electrolysis, energy-storage]
-timestamp: 2026-07-02T00:00:00Z
+tags: [power-to-x, green-hydrogen, electrolysis, energy-storage, poshydon]
+timestamp: 2026-07-24T00:00:00Z
 ---
 
 # Overview
@@ -18,7 +18,15 @@ Three main architectures are being pursued:
 - **Offshore centralized hydrogen production**: a dedicated offshore platform aggregates power from the array and runs large-scale electrolysis, similar in concept to an offshore substation. The Dolphyn project off Aberdeen and the HOPE project off Ostend (targeting a first 10 MW production unit in 2026) follow variants of this model.
 - **Onshore hydrogen production**: power is exported conventionally via cable and electrolysis happens onshore, avoiding the added complexity of a marine electrolysis environment at the cost of retaining the export-cable requirement.
 
+A fourth variant — retrofitting electrolysis onto an existing, still-producing offshore oil and gas platform — was demonstrated in July 2026 by **PosHYdon** in the Dutch North Sea (see below).
+
 Producing hydrogen offshore requires either transporting seawater-derived freshwater for electrolysis or developing seawater electrolysis technology directly, which remains a significant materials and corrosion challenge.
+
+# PosHYdon (Dutch North Sea)
+
+PosHYdon is described as the first project in the world to combine offshore wind power, offshore gas production and offshore hydrogen production. On 24 July 2026 it was reported to have produced its first green hydrogen on an operational offshore platform — the first time electrolysis has run on a working North Sea production platform rather than a purpose-built demonstrator. Partners named in the announcement include [Eni](/companies/index.md) and [DEME](/companies/deme-offshore.md).
+
+The significance is less the volume produced than the demonstration that an electrolyser can be integrated into, and operated within, the constraints of a live offshore hydrocarbon facility — a route that could reuse existing platforms and gas pipelines for hydrogen export instead of building new offshore infrastructure.
 
 # Economics and Rationale
 
@@ -36,3 +44,4 @@ Hydrogen (or ammonia) can be transported by pipeline or ship rather than cable, 
 - [The rise of offshore hydrogen production at scale (Ramboll)](https://www.ramboll.com/net-zero-explorers/offshore-hydrogen-at-scale)
 - [Offshore Wind-to-Hydrogen Production: Technical Pathways, Challenges, and Prospects (MDPI)](https://www.mdpi.com/2076-3417/16/1/211)
 - [Wind-to-Hydrogen Tech Goes to Sea (IEEE Spectrum)](https://spectrum.ieee.org/green-hydrogen-2663997448)
+- [North Sea Pilot Project Produces First Green Hydrogen on Operational Platform (offshoreWIND.biz, 24 July 2026)](https://www.offshorewind.biz/2026/07/24/north-sea-pilot-project-produces-first-green-hydrogen-on-operational-platform/)

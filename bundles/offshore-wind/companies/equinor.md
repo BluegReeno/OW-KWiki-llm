@@ -19,9 +19,9 @@ Equinor has previously stated an ambition to become a "global offshore wind ener
 - **[Empire Wind 1](/projects/empire-wind-1.md)** (US, New York Bight) — 810 MW fixed-bottom project off New York, now solely owned by Equinor after a 2024 asset swap with BP (BP took full ownership of Beacon Wind in exchange). Over 60% complete as of late 2025. Construction has been repeatedly disrupted by US federal action: a stop-work order in April 2025 (lifted in May 2025) and a further lease suspension ordered by the Department of the Interior in December 2025, citing national-security concerns; Equinor's Empire Offshore Wind LLC filed suit in January 2026 seeking to overturn the suspension. Target completion has slipped to end of 2026, with commercial operation expected in 2027. A related project, Empire Wind 2, had its power offtake agreement with NYSERDA terminated in early 2024 amid rising costs, and is in a "reset" phase without a confirmed timeline.
 - **Hywind Scotland** — world's first floating offshore wind farm, near Peterhead; joint venture of Equinor (75%) and Masdar (25%).
 - **Hywind Tampen** — floating wind farm in the Norwegian North Sea (11 turbines) supplying power to Equinor's Snorre and Gullfaks oil and gas platforms to cut their emissions.
-- **Bałtyk 2 & 3** (Poland, Baltic Sea) — 1.4 GW under construction with partner Polenergia; first foundations installed in 2026, first power expected 2027. Equinor and Polenergia are also developing **Bałtyk 1** (up to 1,560 MW, targeted commercial operation 2032).
+- **[Bałtyk 2 & 3](/projects/baltyk-2-3.md)** (Poland, Baltic Sea) — 1.4 GW under construction with partner Polenergia; first foundations installed in 2026, [Sif](/companies/sif.md) loaded out the final monopiles in August 2026, first power expected 2027. Equinor and Polenergia are also developing **Bałtyk 1** (up to 1,560 MW, targeted commercial operation 2032).
 - **Arkona** (Germany, Baltic Sea) — 385 MW operational fixed-bottom farm, 25% Equinor stake.
-- **Sheringham Shoal** and **Dudgeon** (UK) — earlier operational fixed-bottom projects.
+- **Sheringham Shoal** and **[Dudgeon](/projects/dudgeon.md)** (UK) — earlier operational fixed-bottom projects; Equinor operates Dudgeon (402 MW) for the JV it holds with Masdar and China Resources (Holdings).
 
 # Notes on Recent Developments
 

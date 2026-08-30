@@ -43,6 +43,13 @@ Marine (JOM) and CDWE (Taiwan) extending its installation capacity in Asia.
 
 # Key Projects
 
+- [Dogger Bank Wind Farm](/projects/dogger-bank.md) — DEME's fallpipe vessel
+  (FPV) Flintstone was about to commence scour protection (rock installation)
+  work at Phase C in the UK North Sea, July 2026.
+- [Zeevonk Offshore Wind Farm](/projects/zeevonk.md) — awarded the foundation
+  installation contract for the project's first phase (Dutch North Sea,
+  IJmuiden Ver) by the [Vattenfall](/companies/vattenfall.md)/[CIP](/companies/copenhagen-infrastructure-partners.md)
+  Zeevonk JV, July 2026.
 - [Dieppe-Le Tréport Offshore Wind Farm](/projects/dieppe-le-treport.md) —
   completed installation of all jacket foundations, 30 June 2026.
 - [Nordlicht Offshore Wind Farms](/projects/nordlicht.md) — transport &
@@ -69,6 +76,8 @@ Marine (JOM) and CDWE (Taiwan) extending its installation capacity in Asia.
 # Citations
 
 - [DEME | DEME Group](https://deme-group.com/)
+- [Flintstone to Start Scour Protection Work at Dogger Bank C](https://www.offshorewind.biz/2026/07/20/flintstone-to-start-scour-protection-work-at-dogger-bank-c/)
+- [DEME Lands Foundation Installation Contract for First Phase of Zeevonk Offshore Wind Farm](https://www.offshorewind.biz/2026/07/20/deme-lands-foundation-installation-contract-for-first-phase-of-zeevonk-offshore-wind-farm/)
 - [DEME reports record turnover and profit for 2025](https://www.bairdmaritime.com/marine-projects/dredging/deme-reports-record-turnover-and-profit-for-2025)
 - [DEME Takes Delivery of Second New WTIV](https://www.offshorewind.biz/2026/01/16/deme-takes-delivery-of-second-new-wtiv-both-vessels-to-start-offshore-wind-work-in-first-half-of-2026/)
 - [DEME's Next-Gen Offshore Wind Turbine Installation Vessel Officially Named](https://www.offshorewind.biz/2026/04/09/demes-next-gen-offshore-wind-turbine-installation-vessel-officially-named/)

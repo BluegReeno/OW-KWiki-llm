@@ -20,16 +20,30 @@ The company is undergoing a strategic streamlining: in 2026 it sold its European
 # Key Projects
 
 - [Hornsea 2](/projects/hornsea-2.md) (UK) — operating; was the world's largest offshore wind farm at commissioning.
-- Hornsea 3 (UK, 2.9 GW, under construction) — set to become the world's largest single offshore wind farm; uses Siemens Gamesa 14 MW turbines and HVDC export cables to shore, see [HVDC grid connection](/technology/hvdc-grid-connection.md).
+- [Hornsea 3](/projects/hornsea-3.md) (UK, 2.9 GW, under construction) — set to become the world's largest single offshore wind farm; uses Siemens Gamesa 14 MW turbines and HVDC export cables to shore, see [HVDC grid connection](/technology/hvdc-grid-connection.md).
 - Hornsea 4 (UK) — awarded a Contract for Difference in [UK CfD Allocation Round 6](/tenders/uk-cfd-allocation-round-6.md) (2,400 MW) in September 2024, but Ørsted discontinued the project in its awarded form in May 2025 citing rising supply-chain costs, higher interest rates, and construction risk.
-- Borkum Riffgrund 3 (Germany) — Ørsted's largest German offshore wind farm, produced first power in December 2025.
+- [Borkum Riffgrund 3](/projects/borkum-riffgrund-3.md) (Germany, 913 MW) — Ørsted's largest German offshore wind farm, owned with Nuveen Infrastructure; produced first power in December 2025 and more than 99% complete in August 2026.
 - Greater Changhua 1 & 2a — offshore Taiwan; fully grid-connected in April 2024. Changhua 1 is a joint venture with CDPQ and Cathay PE; Changhua 2a is wholly owned by Ørsted. See [Changhua](/projects/changhua.md).
-- Baltica 2 (Poland) — under construction.
-- Sunrise Wind (US, 924 MW, New York) — Ørsted took full ownership in 2024 after buying out partner Eversource's share.
-- Revolution Wind (US, 704 MW) and South Fork Wind (US, 132 MW, operating) — joint ventures with [Skyborn Renewables](/companies/skyborn.md) (a Global Infrastructure Partners portfolio company), following Eversource's 2024 exit from US offshore wind.
+- [Dadu I and Dadu II](/projects/dadu.md) — offshore Changhua County, Taiwan; in environmental permitting, Dadu I up to 924 MW and Dadu II up to 2,002 MW, the latter entering environmental assessment in August 2026.
+- [Baltica 2](/projects/baltica-2.md) (Poland, 1.5 GW) — under construction with PGE, ~40% complete in August 2026, commissioning scheduled for H2 2027.
+- [Sunrise Wind](/projects/sunrise-wind.md) (US, 924 MW, New York) — Ørsted took full ownership in 2024 after buying out partner Eversource's share; 50% complete at 30 June 2026, full operation not expected before H2 2027.
+- [Revolution Wind](/projects/revolution-wind.md) (US, 704 MW, more than 95% complete in August 2026 with four turbines to go) and South Fork Wind (US, 132 MW, operating) — joint ventures with [Skyborn Renewables](/companies/skyborn.md) (a Global Infrastructure Partners portfolio company), following Eversource's 2024 exit from US offshore wind.
 - Stromar — a roughly 1 GW floating wind lease off Caithness, Scotland, won with Falck Renewables and BlueFloat Energy in the [ScotWind leasing round](/tenders/scotwind-leasing-round.md); Ørsted's first large-scale [floating wind](/technology/floating-wind.md) project.
 
 Ørsted is not the developer of several other prominent projects sometimes associated with major offshore wind players: [Dogger Bank](/projects/dogger-bank.md) is led by SSE Renewables and Equinor; [Vineyard Wind 1](/projects/vineyard-wind-1.md) is a joint venture of Avangrid (Iberdrola) and Copenhagen Infrastructure Partners; [Saint-Brieuc](/projects/saint-brieuc.md) is an [Iberdrola](/companies/iberdrola.md) project; [Saint-Nazaire](/projects/saint-nazaire.md) is developed by EDF Renewables with Enbridge and CPP Investments; and [Empire Wind 1](/projects/empire-wind-1.md) is wholly owned by Equinor.
+
+# Construction Portfolio (H1 2026 results)
+
+In its first-half 2026 results, published on 20 August 2026, Ørsted said three
+of its offshore wind farms under construction should reach **full commissioning
+in the second half of 2026**: [Borkum Riffgrund 3](/projects/borkum-riffgrund-3.md)
+(913 MW, Germany, >99% complete, Q3 2026), [Greater Changhua 2b & 4](/projects/changhua.md)
+(920 MW, Taiwan, ~85% complete, Q3 2026) and
+[Revolution Wind](/projects/revolution-wind.md) (704 MW, US, >95% complete).
+Its other projects under construction run later:
+[Sunrise Wind](/projects/sunrise-wind.md) (50% complete, full operation H2 2027),
+[Baltica 2](/projects/baltica-2.md) (~40% complete, H2 2027) and
+[Hornsea 3](/projects/hornsea-3.md) (~30% complete, Q4 2027-Q1 2028).
 
 # US Market Turmoil
 

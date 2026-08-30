@@ -19,7 +19,11 @@ A typical substation platform is a topside module mounted on a jacket foundation
 - Reactive power compensation equipment (needed to offset cable capacitance on long AC export runs)
 - For HVDC-connected farms, the AC-side equipment feeds a separate converter platform rather than exporting AC directly
 
-Platforms are increasingly delivered as prefabricated, factory-tested modules to reduce offshore commissioning time — Siemens Energy's Offshore Transformer Module (OTM) concept, deployed at the [Inch Cape](/projects/inch-cape.md) project on a 68 m jacket, is one example of this modular approach.
+Platforms are increasingly delivered as prefabricated, factory-tested modules to reduce offshore commissioning time — [Siemens Energy](/companies/siemens-energy.md)'s Offshore Transformer Module (OTM) concept, deployed at the [Inch Cape](/projects/inch-cape.md) project on a 68 m jacket, is one example of this modular approach.
+
+# Lightweight Integrated Topsides
+
+The next step beyond modular delivery is integrating the high-voltage components themselves into a single compact unit, so that the topside carries less steel and less equipment for the same duty. Siemens Energy's **High-Voltage TranSwitch Unit (HV-TSU)** is one such design; its first deployment at an offshore wind project was installed in August 2026 at the 304 MW [Yuetuo Island](/projects/yuetuo-island.md) wind farm in China, where the 300 MW topside measures 45 x 38 x 23 m and weighs roughly 1,700 tonnes. The topside module, jacket foundation and foundation pin piles were built by [ZPMC](/companies/zpmc.md). Lower topside weight matters mainly for installation: it widens the range of crane vessels able to lift the module and eases the jacket and pile design underneath it.
 
 # Floating Substations
 

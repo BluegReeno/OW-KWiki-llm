@@ -18,7 +18,7 @@ In 2024, Nobelwind was equipped with a vessel charging station system for crew t
 - **Location**: Belgian North Sea, 47 km offshore
 - **Turbines**: 50 x Vestas V112-3.3 MW
 - **Commissioned**: 2017 (Belwind phase 2)
-- **Owner**: JERA Nex BP (80.1%, since July 2026; previously ~41% JERA Nex BP / 39.02% Sumitomo Corporation)
+- **Owner**: JERA Nex BP (80.1%, since July 2026; previously ~41% JERA Nex BP / 39.02% [Sumitomo Corporation](/companies/sumitomo-corporation.md))
 
 # Citations
 * [JERA Nex BP Takes Full Ownership of Northwester 2, Raises Stake in Nobelwind Offshore Wind Farm](https://www.offshorewind.biz/2026/07/03/jera-nex-bp-takes-full-ownership-of-northwester-2-raises-stake-in-nobelwind-offshore-wind-farm/) - offshoreWIND.biz, July 3, 2026
