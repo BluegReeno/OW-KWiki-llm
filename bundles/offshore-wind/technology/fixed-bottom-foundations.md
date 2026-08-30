@@ -2,8 +2,8 @@
 type: Technology
 title: Fixed-Bottom Foundations
 description: Seabed-mounted structures — monopile, jacket, and gravity-based — that support the large majority of installed offshore wind capacity today.
-tags: [fixed-bottom, monopile, jacket, gravity-based, foundation]
-timestamp: 2026-07-02T00:00:00Z
+tags: [fixed-bottom, monopile, jacket, gravity-based, foundation, pile-installation]
+timestamp: 2026-08-13T00:00:00Z
 ---
 
 # Overview
@@ -18,6 +18,10 @@ Fixed-bottom foundations anchor a turbine tower rigidly to the seabed, either by
 
 Multi-pile designs such as tripods are used less commonly, generally displaced by the jacket in the 30-60 m depth band.
 
+# Pile Installation Methods
+
+Driving piles into the seabed with an impact hammer remains the standard method, and the equipment behind it is now a business in its own right — [Cadeler](/companies/cadeler.md) bought [Menck](/companies/menck.md) for EUR 501 million in August 2026. Alternative installation techniques are being commercialised alongside it: in August 2026 [CAPE Holland](/companies/cape-holland.md) and [GBM Works](/companies/gbm-works.md) signed a Memorandum of Understanding to jointly bring the **Vibrojet** to the offshore wind market. The reporting available here does not describe how the Vibrojet works or what it is claimed to improve on.
+
 # Depth Bands (typical)
 
 | Foundation | Typical depth |
@@ -27,7 +31,7 @@ Multi-pile designs such as tripods are used less commonly, generally displaced b
 | Jacket | 30-60 m |
 | Floating | 50-60 m+ |
 
-Depth thresholds shift as monopile manufacturing and installation-vessel capability scale up; the monopile/jacket crossover point has moved deeper over the past decade as XXL monopiles have become feasible.
+Depth thresholds shift as monopile manufacturing and installation-vessel capability scale up; the monopile/jacket crossover point has moved deeper over the past decade as XXL monopiles have become feasible. New entrants are also targeting the 60-90 m "transitional" band between fixed-bottom and floating: [Neretek](/companies/neretek.md), launched in July 2026 by Wood Thilsted and COP Frontier, offers its BC90 foundation as a lower-cost alternative to deepwater monopiles or jackets at those depths.
 
 # Cross-References
 

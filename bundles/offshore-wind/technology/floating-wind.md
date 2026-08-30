@@ -30,6 +30,12 @@ Floating wind remains significantly more expensive per MW than fixed-bottom, dri
 - [hvdc-grid-connection.md](hvdc-grid-connection.md) — dynamic export cables for floating arrays
 - [/companies/equinor.md](/companies/equinor.md) — pioneer of the Hywind spar concept
 - [/tenders/scotwind-leasing-round.md](/tenders/scotwind-leasing-round.md) — leasing round with substantial floating-wind allocation
+- [/projects/culzean-floating-wind.md](/projects/culzean-floating-wind.md) — off-grid application: a 3 MW floater electrifying a North Sea gas platform (INTOG)
+- [/projects/haiyou-anlan-lufeng.md](/projects/haiyou-anlan-lufeng.md) — CNOOC's 16 MW floater powering the Lufeng oilfield, in operation August 2026: commercial-scale unit rating in an off-grid platform-electrification role
+- [/projects/tetraspar-demonstrator.md](/projects/tetraspar-demonstrator.md) — modular, serially fabricated floater (Stiesdal TetraSpar) at Norway's METCentre; entered decommissioning August 2026, an early end-of-life case for the technology
+- [/projects/floatgen.md](/projects/floatgen.md) — BW Ideol's 2 MW French demonstrator: eight years in operation and 40 GWh generated as of August 2026, the bundle's longest operating record for a floating unit
+- [/companies/encomara.md](/companies/encomara.md) — Aberdeen developer of the Squid floating wind connection system: inshore trials from early August 2026, TRL 7/8 and commercialisation announced 28 August 2026
+- [/companies/macgregor.md](/companies/macgregor.md) — O&M access: DNV-certified floating-to-floating personnel transfer with the Horizon walk-to-work gangway (August 2026), for service logistics where there is no fixed structure to land on
 - [/policy/eu-offshore-wind-strategy.md](/policy/eu-offshore-wind-strategy.md)
 
 # Citations
@@ -37,3 +43,6 @@ Floating wind remains significantly more expensive per MW than fixed-bottom, dri
 - [Novel conceptual design and performance analysis of a semi-submersible platform for 22 MW floating offshore wind turbine (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S0360544225032475)
 - [Design and dynamic response analysis of a novel 15 MW tension leg platform floating offshore wind turbine (Frontiers)](https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2026.1670184/full)
 - [Guide to a Floating Offshore Wind Farm — B.1.2 Export cable](https://guidetofloatingoffshorewind.com/guide/b-balance-of-plant/b-1-cables/b-1-2-export-cable/)
+- [MacGregor Secures DNV Certification for Floating-to-Floating Personnel Transfers - offshoreWIND.biz, 25 August 2026](https://www.offshorewind.biz/2026/08/25/macgregor-secures-dnv-certification-for-floating-to-floating-personnel-transfers/)
+- [Encomara's Squid Floating Wind Connection System Reaches Commercialisation - offshoreWIND.biz, 28 August 2026](https://www.offshorewind.biz/2026/08/28/encomaras-squid-floating-wind-connection-system-reaches-commercialisation/)
+- [BW Ideol's Eight-Year-Old Floatgen Turbine Produces 40 GWh - offshoreWIND.biz, 28 August 2026](https://www.offshorewind.biz/2026/08/28/bw-ideols-eight-year-old-floatgen-turbine-produces-40-gwh/)

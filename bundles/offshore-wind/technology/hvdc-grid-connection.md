@@ -29,7 +29,13 @@ Floating wind farms sited in deeper water need dynamic (flexible, motion-toleran
 - [/projects/dogger-bank.md](/projects/dogger-bank.md), [/projects/hornsea-2.md](/projects/hornsea-2.md), [/projects/empire-wind-1.md](/projects/empire-wind-1.md) — HVDC-connected projects
 - [/companies/orsted.md](/companies/orsted.md), [/companies/rwe-offshore-wind.md](/companies/rwe-offshore-wind.md), [/companies/equinor.md](/companies/equinor.md) — developers of HVDC-scale farms
 - [/companies/aker-solutions.md](/companies/aker-solutions.md) — EPC supplier of HVDC converter platform substructures
+- [/companies/50hertz.md](/companies/50hertz.md) — TSO for offshore grid connection in the German Baltic Sea
+- [/companies/seatrium.md](/companies/seatrium.md) — offshore fabricator building a UK hub for TenneT's 2 GW HVDC programme
+- [/projects/balwin5.md](/projects/balwin5.md) — TenneT 2.2 GW-class converter platform in the German North Sea, commissioning 2033
+- [/companies/sk-oceanplant.md](/companies/sk-oceanplant.md) — Korean supplier of the BalWin5 converter platform jacket and piles
 - [/companies/ls-cable-system.md](/companies/ls-cable-system.md) — cable manufacturer building a US subsea export cable factory
+- [/companies/van-oord.md](/companies/van-oord.md) — marine contractor entering offshore HVDC via a framework deal with Sumitomo Electric and SSEN Transmission (Scotland)
+- [/companies/allseas.md](/companies/allseas.md) — offshore contractor building a dedicated converter station transport vessel, with [/companies/abb.md](/companies/abb.md) supplying its power equipment
 - [/policy/uk-contracts-for-difference-scheme.md](/policy/uk-contracts-for-difference-scheme.md), [/policy/eu-offshore-wind-strategy.md](/policy/eu-offshore-wind-strategy.md)
 
 # Citations

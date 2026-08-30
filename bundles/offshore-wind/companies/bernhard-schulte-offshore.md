@@ -1,10 +1,10 @@
 ---
 type: Company
 title: Bernhard Schulte Offshore (BSO)
-description: Hamburg-based offshore wind service vessel operator (part of the Bernhard Schulte group), operating a fleet of Ulstein-designed Commissioning Service Operation Vessels (CSOVs) under the WINDEA brand for offshore wind construction, commissioning, and O&M charters.
-resource: https://www.offshorewind.biz/2026/07/03/bernhard-schulte-offshore-takes-delivery-of-fourth-csov-in-newbuild-series/
-tags: [companies, marine-contractor, csov, vessels]
-timestamp: 2026-07-03
+description: Hamburg-based offshore wind service vessel operator (part of the Bernhard Schulte group), operating a fleet of Ulstein-designed Commissioning Service Operation Vessels (CSOVs) under the WINDEA brand; won a Baltica 2 CSOV contract in August 2026.
+resource: https://www.offshorewind.biz/2026/08/06/bernhard-schulte-pelagic-partners-win-baltica-2-csov-contracts/
+tags: [companies, marine-contractor, csov, vessels, tenders]
+timestamp: 2026-08-06T13:47:31Z
 ---
 
 # Bernhard Schulte Offshore (BSO)
@@ -29,5 +29,13 @@ designs at Ulstein Verft in Norway:
 Windea Clarke is the seventh Ulstein-designed offshore wind service vessel
 in BSO's fleet overall.
 
+## Charters and contracts
+
+* **August 2026** - awarded a CSOV contract for the 1.5 GW
+  [Baltica 2](/projects/baltica-2.md) offshore wind farm in Poland by project company
+  Elektrownia Wiatrowa Baltica – 2, alongside
+  [Pelagic Partners](/companies/pelagic-partners.md). Vessel, duration and value not reported.
+
 # Citations
 * [Bernhard Schulte Offshore Takes Delivery of Fourth CSOV in Newbuild Series - offshoreWIND.biz, 3 July 2026](https://www.offshorewind.biz/2026/07/03/bernhard-schulte-offshore-takes-delivery-of-fourth-csov-in-newbuild-series/)
+* [Bernhard Schulte, Pelagic Partners Win Baltica 2 CSOV Contracts - offshoreWIND.biz, 6 August 2026](https://www.offshorewind.biz/2026/08/06/bernhard-schulte-pelagic-partners-win-baltica-2-csov-contracts/)

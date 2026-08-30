@@ -1,10 +1,10 @@
 ---
 type: Project
 title: Inch Cape Offshore Wind Farm
-description: 1.1 GW offshore wind farm in the North Sea off Scotland's Angus coast, jointly owned by ESB and Red Rock Renewables; under construction, second export cable installation campaign completed July 2026, first power expected late 2026.
-resource: https://www.offshorewind.biz/2026/07/03/export-cable-installation-completed-at-inch-cape-offshore-wind-farm/
-tags: [fixed-bottom, construction, grid-connection, uk, tenders]
-timestamp: 2026-07-03T07:06:12Z
+description: 1.1 GW offshore wind farm in the North Sea off Scotland's Angus coast, jointly owned by ESB and Red Rock Renewables; under construction, monopiles completed August 2026, Seaway7's Alfa Lift starting jacket pin pile installation and Cadeler's Wind Mover due to begin turbine installation in November 2026.
+resource: https://www.offshorewind.biz/2026/08/28/seaway-alfa-lift-to-start-installing-inch-cape-jacket-pin-piles-cadelers-wind-mover-to-begin-turbine-installation-in-november/
+tags: [fixed-bottom, construction, grid-connection, foundations, installation-vessel, uk, tenders]
+timestamp: 2026-08-28T10:51:44Z
 ---
 
 # Inch Cape Offshore Wind Farm
@@ -34,8 +34,20 @@ substation at Cockenzie, East Lothian.
   installed by Enshore Subsea using cable supplied by Orient Cable (NBO);
   remaining interface works (offshore jointing, onshore/offshore platform
   jointing and termination) targeted for completion by end of 2026.
+- **August 2026**: All 54 transition pieces installed on the monopiles,
+  completing the monopile [foundation](/technology/fixed-bottom-foundations.md)
+  installation campaign; the 18 jacket foundations are next. The article
+  reporting the milestone is filed under Seaway7, indicating its role in
+  the foundation installation scope.
+- **28 August 2026**: **Seaway7** (the renewables arm of
+  [Subsea 7](/companies/subsea-7.md)) is set to begin installing the
+  **pin piles** for the project's jacket foundations, using the heavy
+  transport and installation vessel **Alfa Lift**.
+- **November 2026**: [Cadeler](/companies/cadeler.md)'s installation
+  vessel **Wind Mover** is due to begin turbine installation.
 - **Late 2026**: First power expected.
 - **2027**: Full commercial operation expected.
 
 # Citations
 - [Export Cable Installation Completed at Inch Cape Offshore Wind Farm](https://www.offshorewind.biz/2026/07/03/export-cable-installation-completed-at-inch-cape-offshore-wind-farm/) - offshoreWIND.biz, July 3, 2026
+- [Seaway Alfa Lift to Start Installing Inch Cape Jacket Pin Piles, Cadeler's Wind Mover to Begin Turbine Installation in November](https://www.offshorewind.biz/2026/08/28/seaway-alfa-lift-to-start-installing-inch-cape-jacket-pin-piles-cadelers-wind-mover-to-begin-turbine-installation-in-november/) - offshoreWIND.biz, 28 August 2026

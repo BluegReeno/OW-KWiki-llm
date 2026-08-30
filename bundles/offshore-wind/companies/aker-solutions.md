@@ -17,6 +17,11 @@ connections over 2025-2026.
 
 # Key Contracts
 
+- **July 2026 — Bellrock (floating wind)**: appointed by developer Nadara
+  to undertake electrical infrastructure studies for the
+  [Bellrock](/projects/bellrock.md) floating offshore wind project — an
+  electrical infrastructure engineering scope beyond its usual HVDC
+  substructure fabrication work.
 - **July 2026 — undisclosed European project**: Aker Solutions secured a
   new "substantial" contract (per its own classification, NOK 2.5-4 billion,
   roughly EUR 212-339 million) to deliver an HVDC substructure under an EPC
@@ -34,6 +39,7 @@ connections over 2025-2026.
 # Cross-References
 
 - [HVDC Grid Connection](/technology/hvdc-grid-connection.md)
+- [Bellrock Offshore Wind Farm](/projects/bellrock.md)
 
 # Citations
 

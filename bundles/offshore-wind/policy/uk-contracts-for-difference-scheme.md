@@ -4,7 +4,7 @@ title: UK Contracts for Difference (CfD) Scheme
 description: The UK's competitive auction mechanism guaranteeing renewable generators a strike price, underpinning successive offshore wind allocation rounds.
 resource: https://www.gov.uk/government/collections/contracts-for-difference
 tags: [united-kingdom, cfd, auction, tenders]
-timestamp: 2026-07-02T00:00:00Z
+timestamp: 2026-08-05T11:45:00Z
 ---
 
 # Overview
@@ -26,6 +26,13 @@ The scheme has run annually since 2022 (previously less frequently), and success
 - **Pots**: Pot 1 (established technologies), Pot 2 (emerging technologies, including floating offshore wind), and a dedicated offshore wind pot since AR4.
 - **Cadence**: annual allocation rounds since 2022.
 - **Contract length**: extended from 15 to 20 years, CPI-indexed, for offshore wind (fixed-bottom and floating) from AR7 onward.
+
+# Generation Outcome
+
+- **2025**: offshore wind supplied a record **17.7% of UK electricity**, its
+  highest share of the national power mix to date — the aggregate output of the
+  fleet built through successive allocation rounds
+  ([offshoreWIND.biz, 5 August 2026](https://www.offshorewind.biz/2026/08/05/offshore-wind-sets-new-uk-generation-record-in-2025/)).
 
 # Recent Rounds
 

@@ -44,10 +44,41 @@ $3–5 billion range depending on the source and year.
   1 & 2a, and export cable installation at Greater Changhua 2b & 4, using the
   vessel Nexus and trencher Dig-It.
 
+- [Hollandse Kust West VI](/projects/hollandse-kust-west-vi.md) — transport
+  and installation of foundations and turbines plus inter-array cables for
+  [Ecowende](/companies/ecowende.md). Installed all monopiles (industry's
+  first "silent installation", April 2026) and, in July 2026, completed the
+  nature-inclusive scour protection campaign: 300,000 tonnes of rock placed
+  by SRIVs Bravenes and Nordnes, including eco-rock berms and rocks up to
+  450 kg, said to be the largest ever installed by an SRIV.
+
+- [Baltica 2](/projects/baltica-2.md) — foundation installation contractor for the
+  ~1.5 GW PGE / [Ørsted](/companies/orsted.md) project in the Polish Baltic Sea. In
+  August 2026 Van Oord completed the installation of all **111 monopile foundations**
+  (107 turbine positions plus four offshore substation positions), a campaign that
+  began in May 2026. Secondary steel on the monopiles — boat landings, internal platforms
+  and external platform operations — was installed with bespoke Secondary Structure
+  Installation Tools supplied by [F.lli Righini](/companies/f-lli-righini.md)
+  (announced August 2026).
+
 Other recent installation contracts (not yet covered as bundle pages)
-include Hollandse Kust West VI and Sofia (Netherlands/UK, monopile and cable
-installation), Baltic Power (Poland, first offshore wind farm), and
-Windanker (Germany, for Iberdrola).
+include Sofia (UK, monopile and cable installation), Baltic Power (Poland,
+first offshore wind farm), and Windanker (Germany, for Iberdrola).
+
+# Grid Connection / HVDC
+
+In July 2026, Van Oord Offshore Wind UK Ltd and Sumitomo Electric Industries
+signed a long-term framework agreement with [SSEN Transmission](https://www.ssen-transmission.co.uk/)
+for the engineering, supply, transport and installation of
+[HVDC subsea cable systems](/technology/hvdc-grid-connection.md) supporting
+transmission reinforcement in the north of Scotland. The framework pairs
+Sumitomo Electric's cable manufacturing (its new Nigg factory in the
+Highlands) with Van Oord's offshore transport and installation, and is
+intended to deliver strategic subsea links including the proposed Shetland 2
+HVDC link — the anchor project underpinning the Nigg investment. Van Oord
+described the signing as its entry into the offshore HVDC market.
+(Note: Sumitomo Electric Industries is a distinct entity from the trading
+conglomerate [Sumitomo Corporation](/companies/sumitomo-corporation.md).)
 
 # Citations
 
@@ -55,9 +86,11 @@ Windanker (Germany, for Iberdrola).
 - [Organisation | Van Oord](https://www.vanoord.com/en/about-us/organisation/)
 - [Offshore wind | Van Oord](https://www.vanoord.com/en/expertise/offshore-wind/)
 - [Van Oord Installs All Monopiles at Hollandse Kust West VI](https://www.offshorewind.biz/2026/04/10/van-oord-installs-all-monopiles-at-hollandse-kust-west-vi-completes-industrys-first-silent-installation/)
+- [Van Oord Completes Installation of Nature-Inclusive Scour Protection at New Dutch Offshore Wind Farm](https://www.offshorewind.biz/2026/07/23/van-oord-completes-installation-of-nature-inclusive-scour-protection-at-new-dutch-offshore-wind-farm/)
 - [Van Oord accelerates the rollout of offshore wind energy in Poland](https://www.vanoord.com/en/updates/van-oord-accelerates-rollout-offshore-wind-energy-poland/)
 - [Van Oord successfully completes monopile installation at Windanker offshore wind farm](https://www.vanoord.com/en/updates/van-oord-successfully-completes-monopile-installation-windanker-offshore-wind-farm/)
 - [Ørsted contracts Van Oord for cable installation at Greater Changhua offshore wind farms](https://www.vanoord.com/en/updates/orsted-contracts-van-oord-cable-installation-greater-changhua-offshore-wind-farms/)
 - [Van Oord awarded contracts for new offshore wind projects in Baltic Sea and Taiwan](https://www.vanoord.com/en/updates/van-oord-awarded-contracts-new-offshore-wind-projects-baltic-sea-and-taiwan/)
 - [Van Oord Wraps Up Inter-Array Cable Installation at UK's Sofia Offshore Wind Farm](https://www.offshorewind.biz/2025/09/09/van-oord-wraps-up-inter-array-cable-installation-at-uks-sofia-offshore-wind-farm/)
 - [Van Oord orders mega ship to install 20 MW offshore wind foundations and turbines](https://www.vanoord.com/en/updates/van-oord-orders-mega-ship/)
+- [Van Oord Completes Monopile Installation at 1.5 GW Polish Offshore Wind Project — offshoreWIND.biz, 21 Aug 2026](https://www.offshorewind.biz/2026/08/21/van-oord-completes-monopile-installation-at-1-5-gw-polish-offshore-wind-project/)

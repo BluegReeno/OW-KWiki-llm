@@ -1,15 +1,26 @@
 ---
 type: Company
 title: Siemens Gamesa Renewable Energy
-description: Wind turbine manufacturer headquartered in Spain, wholly owned by Siemens Energy since 2023, and one of the leading suppliers of offshore direct-drive turbines worldwide.
+description: Wind turbine manufacturer headquartered in Spain, wholly owned by Siemens Energy since 2023 and set to be rebranded Omterra, and one of the leading suppliers of offshore direct-drive turbines worldwide.
 resource: https://www.siemensgamesa.com/
-tags: [company, oem, turbine-manufacturer, spain, germany]
-timestamp: 2026-07-02T00:00:00Z
+tags: [company, oem, turbine-manufacturer, spain, germany, omterra, rebrand]
+timestamp: 2026-07-22T00:00:00Z
 ---
 
 # Role
 
 Siemens Gamesa Renewable Energy, S.A. (SGRE), headquartered in Zamudio, Spain, manufactures onshore and offshore wind turbines and provides related services. It was formed in 2017 from the merger of Siemens Wind Power and Gamesa, and became a wholly-owned subsidiary of [Siemens Energy](https://www.siemens-energy.com/) after a tender offer and squeeze-out: Siemens Energy reached 100% ownership in June 2023, and the company was delisted from the Spanish stock exchanges (delisting approved February 2023). Siemens Gamesa remains a distinct offshore wind turbine brand within Siemens Energy's renewables business, and is one of the two dominant offshore OEMs in Europe alongside [Vestas](/companies/vestas.md), competing globally with both Vestas and [GE Vernova](/companies/ge-vernova-offshore-wind.md).
+
+# Corporate Brand: Omterra (announced July 2026)
+
+On 22 July 2026, Siemens Energy announced plans to move to a new corporate brand,
+**Omterra**, a change that also covers Siemens Gamesa. The announcement as reported
+concerns branding rather than ownership or structure: Siemens Gamesa remains the
+Siemens Energy wind business, and the reporting available gives no rebrand timetable,
+no confirmation of how the product/turbine naming (the `SG` model prefixes) will be
+handled, and no change to plants, orders or projects. Existing turbine supply and
+service contracts referenced on this page were signed under the Siemens Gamesa name.
+This page is kept under `siemens-gamesa.md` until the new brand is actually in use.
 
 # Key Turbine Models / Deployments
 
@@ -17,12 +28,12 @@ Siemens Gamesa Renewable Energy, S.A. (SGRE), headquartered in Zamudio, Spain, m
   - [Hornsea 2](/projects/hornsea-2.md) (UK, ~1,386 MW, developed by Ørsted) — 165 SG 8.0-167 DD turbines.
   - [Saint-Brieuc](/projects/saint-brieuc.md) (France, 496 MW, developed by [Iberdrola](/companies/iberdrola.md)) — 62 SG 8.0-167 DD turbines.
   - [Changhua](/projects/changhua.md) (Taiwan, Greater Changhua 1 & 2a, ~900 MW, developed by Ørsted) — 111 SG 8.0-167 DD turbines, supported by a dedicated nacelle-assembly facility in Taichung.
-- **SG 14-222 DD** — flagship 14 MW (up to 15 MW with Power Boost) direct-drive platform launched in 2020, with a 222 m rotor and 108 m B108 blades; supplied to projects including the Dominion Energy Coastal Virginia Offshore Wind project (~2.6 GW, US) and Moray West and Sofia (UK).
+- **SG 14-222 DD** — flagship 14 MW (up to 15 MW with Power Boost) direct-drive platform launched in 2020, with a 222 m rotor and 108 m B108 blades; supplied to projects including [Coastal Virginia Offshore Wind](/projects/coastal-virginia-offshore-wind.md) (~2.6 GW, US, [Dominion Energy](/companies/dominion-energy.md)) and Moray West and Sofia (UK).
 - **SG 14-236 DD / SG 15-236 DD** — newer, larger-rotor evolutions of the 14 MW/15 MW direct-drive platform for higher-yield sites.
 
 # Manufacturing Footprint
 
-Siemens Gamesa operates dedicated offshore nacelle and blade production sites in Europe (including Le Havre, France, for 8 MW-class turbines) and in Taichung, Taiwan, to serve the Asia-Pacific offshore market. As part of Siemens Energy, it has also worked with its parent on integrating offshore wind with green hydrogen and [power-to-x](/technology/power-to-x.md) production concepts.
+Siemens Gamesa operates dedicated offshore nacelle and blade production sites in Europe (including Le Havre, France, for 8 MW-class turbines) and in Taichung, Taiwan, to serve the Asia-Pacific offshore market. To support Taiwanese offshore campaigns, in July 2026 it signed a framework agreement with PKR Offshore, the offshore wind subsidiary of [Marco Polo Marine](/companies/marco-polo-marine.md), booking two commissioning service operation vessels (CSOVs) for work in Taiwan. As part of Siemens Energy, it has also worked with its parent on integrating offshore wind with green hydrogen and [power-to-x](/technology/power-to-x.md) production concepts.
 
 # Citations
 
@@ -34,3 +45,5 @@ Siemens Gamesa operates dedicated offshore nacelle and blade production sites in
 - [Siemens Gamesa — Shareholders approve delisting (2023)](https://www.siemensgamesa.com/global/en/home/press-releases/012523-siemens-gamesa-press-release-extraordinary-general-meeting-2023.html)
 - [Siemens Energy — Successfully concludes tender offer for Siemens Gamesa minority shareholders](https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-successfully-concludes-tender-offer-period-siemens-gamesa-minority.html)
 - [Wikipedia — Siemens Gamesa](https://en.wikipedia.org/wiki/Siemens_Gamesa)
+- [offshoreWIND.biz — Siemens Energy, Siemens Gamesa to Become Omterra (22 July 2026)](https://www.offshorewind.biz/2026/07/22/siemens-energy-siemens-gamesa-to-become-omterra/)
+- [offshoreWIND.biz — Siemens Gamesa Books Two CSOVs from Marco Polo Marine for Taiwan Offshore Wind Work (22 July 2026)](https://www.offshorewind.biz/2026/07/22/siemens-gamesa-books-two-csovs-from-marco-polo-marine-for-taiwan-offshore-wind-work/)
